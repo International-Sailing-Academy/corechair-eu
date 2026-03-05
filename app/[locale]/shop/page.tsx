@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
+import Link from 'next/link';
 import Navigation from '../../components/Navigation';
 
 export function generateStaticParams() {
@@ -11,129 +12,101 @@ export default function Shop({ params: { locale } }: { params: { locale: string 
   const t = useTranslations();
 
   const products = [
-    {
-      key: 'coreperch',
-      image: '🪑',
-      warranty: 'short',
-      featured: false,
-    },
-    {
-      key: 'tango',
-      image: '💺',
-      warranty: 'short',
-      featured: false,
-    },
-    {
-      key: 'classic',
-      image: '✨',
-      warranty: 'full',
-      neat: true,
-      featured: true,
-    },
-    {
-      key: 'sport',
-      image: '🏃',
-      warranty: 'full',
-      neat: true,
-      featured: false,
-    },
-    {
-      key: 'elite',
-      image: '👑',
-      warranty: 'full',
-      featured: true,
-    },
+    { key: 'coreperch', gradient: 'from-orange-400 to-red-500' },
+    { key: 'tango', gradient: 'from-blue-400 to-cyan-500' },
+    { key: 'classic', gradient: 'from-purple-500 to-pink-500', popular: true },
+    { key: 'sport', gradient: 'from-green-400 to-emerald-500' },
+    { key: 'elite', gradient: 'from-violet-500 to-purple-600', isNew: true },
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16">
+      {/* Hero */}
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('shop.title')}</h1>
-          <p className="text-xl text-blue-100">{t('shop.subtitle')}</p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">{t('shop.hero.title')}</h1>
+          <p className="text-xl text-blue-100 max-w-2xl mx-auto">{t('shop.hero.subtitle')}</p>
         </div>
       </section>
 
-      {/* Products */}
-      <section className="py-16">
+      {/* Products Grid */}
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <p className="text-gray-500 mb-8 text-center">{t('shop.sort')}</p>
-          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {products.map((product) => (
               <div
                 key={product.key}
-                className={`bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border-2 ${
-                  product.featured ? 'border-blue-500' : 'border-gray-100'
-                }`}
+                className="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 overflow-hidden border border-gray-100"
               >
-                {product.featured && (
-                  <div className="bg-blue-500 text-white text-center py-2 text-sm font-bold">
-                    ★ {product.key === 'elite' ? 'NEW' : 'POPULAR'}
-                  </div>
-                )}
-                
-                <div className={`h-56 flex items-center justify-center ${
-                  product.featured ? 'bg-blue-50' : 'bg-gray-50'
-                }`}>
-                  <span className="text-8xl">{product.image}</span>
+                {/* Image Area */}
+                <div className={`relative h-64 bg-gradient-to-br ${product.gradient} flex items-center justify-center`}>
+                  {product.isNew && (
+                    <span className="absolute top-4 left-4 px-3 py-1 bg-white text-purple-600 text-sm font-bold rounded-full">
+                      NEW
+                    </span>
+                  )}
+                  {product.popular && (
+                    <span className="absolute top-4 right-4 px-3 py-1 bg-yellow-400 text-yellow-900 text-sm font-bold rounded-full">
+                      POPULAR
+                    </span>
+                  )}
+                  <span className="text-8xl group-hover:scale-110 transition-transform duration-300">🪑</span>
                 </div>
-                
-                <div className="p-6">
+
+                {/* Content */}
+                <div className="p-8">
                   <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      {t(`shop.products.${product.key}.name`)}
-                    </h3>
+                    <span className="text-sm text-gray-500 uppercase tracking-wider">{t(`shop.products.${product.key}.tagline`)}</span>
                     <div className="flex items-center gap-1">
-                      <span className="text-yellow-500">★</span>
-                      <span className="text-sm font-medium">
-                        {t(`shop.products.${product.key}.rating`)}
-                      </span>
+                      <span className="text-yellow-400">★</span>
+                      <span className="text-sm font-medium">{t(`shop.products.${product.key}.rating`)}</span>
                     </div>
                   </div>
                   
-                  <p className="text-gray-600 mb-4">
-                    {t(`shop.products.${product.key}.shortDesc`)}
-                  </p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{t(`shop.products.${product.key}.name`)}</h3>
+                  <p className="text-gray-600 mb-4">{t(`shop.products.${product.key}.description`)}</p>
                   
-                  <p className="text-3xl font-bold text-blue-600 mb-4">
-                    {t(`shop.products.${product.key}.price`)}
-                  </p>
-
-                  <ul className="space-y-2 mb-6 text-sm text-gray-600">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <span className="text-green-500 mt-0.5">✓</span>
-                        <span>{t(`shop.products.${product.key}.features.${i}`)}</span>
-                      </li>
-                    ))}
-                  </ul>
-
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${
-                      product.warranty === 'full'
-                        ? 'bg-blue-100 text-blue-800'
-                        : 'bg-green-100 text-green-800'
-                    }`}>
-                      {product.warranty === 'full' ? t('shop.warranty') : t('shop.warrantyShort')}
-                    </span>
-                    {product.neat && (
-                      <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
-                        {t('shop.neatCertified')}
+                    {['0', '1', '2'].map((i) => (
+                      <span key={i} className="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded-full">
+                        {t(`shop.products.${product.key}.features.${i}`)}
                       </span>
-                    )}
+                    ))}
                   </div>
 
-                  <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                    {t('shop.addToCart')}
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="text-sm text-gray-500">Starting from</span>
+                      <p className="text-3xl font-bold text-gray-900">{t(`shop.products.${product.key}.price`)}</p>
+                    </div>
+                    <span className="text-sm px-3 py-1 bg-green-100 text-green-700 rounded-full font-medium">
+                      {t(`shop.products.${product.key}.bestFor`)}
+                    </span>
+                  </div>
+
+                  <button className="w-full mt-6 py-4 bg-gray-900 text-white rounded-xl font-semibold hover:bg-gray-800 transition-colors">
+                    Learn More
                   </button>
                 </div>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Help CTA */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('shop.cta.title')}</h2>
+          <p className="text-gray-600 mb-8">{t('shop.cta.desc')}</p>
+          <Link
+            href={`/${locale}/contact/`}
+            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all hover:scale-105"
+          >
+            {t('shop.cta.button')}
+          </Link>
         </div>
       </section>
 

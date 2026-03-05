@@ -1,280 +1,442 @@
 {
   "nav": {
     "home": "Home",
+    "benefits": "Benefits",
+    "design": "Design",
     "shop": "Shop",
-    "about": "About",
     "science": "Science",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "about": "About",
     "contact": "Contact",
-    "buy": "Buy Now"
+    "buy": "Shop Now"
   },
   "home": {
     "hero": {
       "title": "The World's Healthiest Ergonomic Office Chair",
-      "subtitle": "Active sitting solutions designed to promote movement, improve posture, and reduce back pain. NEAT Certified by Mayo Clinic.",
-      "cta": "Shop CoreChair",
-      "learnMore": "Learn More"
+      "subtitle": "Experience active sitting that promotes movement, improves posture, and eliminates back pain. NEAT Certified by Mayo Clinic.",
+      "ctaPrimary": "Shop Collection",
+      "ctaSecondary": "Discover Benefits"
     },
-    "intro": {
-      "title": "Embracing Active Sitting for Better Health",
-      "p1": "In response to the extended time we spend sitting each day, which contributes to obesity, illness and back pain, solutions like exercise balls and standing desks were adopted. However, research tells us that it doesn't matter whether we sit or stand, we need to MOVE.",
-      "p2": "CoreChair aims to target the conditions resulting from sitting disease through its built-in 14-degree multidirectional active sitting movement. It focuses on pelvic stability to offer postural support, with a naturally balanced positioning of your pelvis, spine and head.",
-      "p3": "As a result, our innovative active sitting design improves joint mobility in the hips, pelvis, and spine, while boosting blood flow, muscle activity and calorie burn.",
-      "tagline": "Sit Smarter, Move More!"
-    },
-    "eliteBanner": {
-      "title": "INTRODUCING THE NEW CORECHAIR ELITE",
-      "description": "We took all the best features of the CoreChair Classic, and added a Flexible Upper Thoracic Support. Continue to enjoy the benefits of posture, movement and comfort, now with the addition of a tall back.",
-      "availability": "6 Colors Now Available for Pre-Order",
-      "cta": "LEARN MORE"
-    },
-    "advantages": {
-      "title": "Advantages of Active Sitting",
-      "subtitle": "CoreChair was developed with a research-based approach to address Sitting Disease and back pain.",
-      "items": {
-        "backPain": {
-          "title": "Reduced Back Pain",
-          "desc": "Pelvic support provides the foundation for a balanced healthy spine to prevent slumping, optimize posture, and reduce back pain and discomfort."
-        },
-        "brain": {
-          "title": "Brain Power",
-          "desc": "Increased blood flow to the brain keeps you alert and creative, making you happier and more productive in the workplace."
-        },
-        "core": {
-          "title": "Core Strength",
-          "desc": "Movement is the key to maintaining core strength and more movement will definitely build strength. One absolute is that if you don't use it you will lose it."
-        },
-        "pelvic": {
-          "title": "Pelvic Support",
-          "desc": "Our seat cushion works in conjunction with the pelvic support to stabilize the pelvis, optimize sitting posture, and reduce back pain."
-        },
-        "calories": {
-          "title": "Increased Caloric Burn",
-          "desc": "Movement burns calories and helps manage our weight and mood, which provides energy! Using CoreChair can increase metabolic demand by 20%!"
-        },
-        "circulation": {
-          "title": "Increased Circulation",
-          "desc": "Swollen ankles? Movement stimulates your circulation. Not just to make your heart pump but also assists your vascular return."
-        },
-        "bloodFlow": {
-          "title": "Blood Flow",
-          "desc": "Movement stimulates your lymphatic system and blood flow to keep your vital systems working well."
-        },
-        "ergonomic": {
-          "title": "Ergonomic Seat Structure",
-          "desc": "Sculpted seat harmonizes with pelvic stabilizer to relieve pressure points, prevent sliding, and provide added comfort."
-        }
+    "trust": {
+      "title": "Trusted by leading organizations worldwide",
+      "stats": {
+        "years": "15+ Years",
+        "satisfaction": "97% Satisfaction",
+        "warranty": "8-Year Warranty"
       }
     },
+    "intro": {
+      "label": "Active Sitting Revolution",
+      "title": "Move While You Sit",
+      "p1": "Research shows it doesn't matter whether we sit or stand—we need to MOVE. CoreChair targets sitting disease through its patented 14-degree multidirectional active sitting mechanism.",
+      "p2": "Our innovative design focuses on pelvic stability to provide postural support with naturally balanced positioning of your pelvis, spine, and head.",
+      "p3": "Experience improved joint mobility in hips, pelvis, and spine while boosting blood flow, muscle activity, and calorie burn.",
+      "tagline": "Sit Smarter, Move More"
+    },
+    "elite": {
+      "label": "New Release",
+      "title": "Introducing CoreChair ELITE",
+      "description": "All the benefits of the Classic, now with flexible upper thoracic support. A tall back that moves with you, providing support when you need to sit back and relax.",
+      "features": ["Patent-pending Clever Spine", "Adjustable upper back height", "14° movement in all directions", "6 colors available"],
+      "cta": "Explore ELITE"
+    },
+    "benefits": {
+      "label": "Why Choose CoreChair",
+      "title": "Science-Backed Benefits",
+      "items": [
+        { "title": "Reduced Back Pain", "desc": "Pelvic support prevents slumping and optimizes posture" },
+        { "title": "Brain Power", "desc": "Increased blood flow keeps you alert and creative" },
+        { "title": "Core Strength", "desc": "Movement builds strength—use it or lose it" },
+        { "title": "20% More Calorie Burn", "desc": "NEAT certified by Mayo Clinic" }
+      ]
+    },
+    "products": {
+      "label": "Our Collection",
+      "title": "Find Your Perfect Fit",
+      "viewAll": "View All Products"
+    },
+    "research": {
+      "label": "Research Validated",
+      "title": "Backed by Science",
+      "p1": "Cornell University research shows CoreChair exerts less pressure points than standard ergonomic chairs.",
+      "p2": "Mayo Clinic NEAT certification confirms 20% increase in caloric burn compared to traditional chairs.",
+      "cta": "View Research"
+    },
     "trial": {
-      "title": "Risk-Free Trial",
-      "desc": "We understand our product is different, and that's a good thing, we promise. Give us an honest try and if you're not satisfied after the trial period, reach out to us. We even offer a complimentary 1-on-1 virtual consultation with our team Kinesiologist."
+      "title": "60-Day Risk-Free Trial",
+      "desc": "Try CoreChair in your own space. If you're not completely satisfied, we'll make it right with free returns and expert fitting support.",
+      "cta": "Start Your Trial"
+    }
+  },
+  "benefits": {
+    "hero": {
+      "title": "The Benefits of Active Sitting",
+      "subtitle": "Transform your health, one sit at a time"
+    },
+    "main": {
+      "label": "Health Benefits",
+      "title": "Why Active Sitting Matters",
+      "intro": "Traditional sitting creates a cascade of health issues. CoreChair's active sitting technology addresses the root causes of sitting disease."
+    },
+    "items": [
+      {
+        "title": "Reduced Back Pain",
+        "desc": "Pelvic support provides the foundation for a balanced, healthy spine. Our sculpted seat and strategic support prevent slumping, optimize posture, and significantly reduce back pain and discomfort.",
+        "stat": "89%",
+        "statLabel": "Report less back pain"
+      },
+      {
+        "title": "Enhanced Brain Power",
+        "desc": "Increased blood flow to the brain keeps you alert, creative, and productive. Users report feeling more engaged and energized throughout the workday.",
+        "stat": "+23%",
+        "statLabel": "Improved focus"
+      },
+      {
+        "title": "Core Strength Building",
+        "desc": "Movement is the key to maintaining core strength. CoreChair's gentle, continuous micro-movements engage your core stabilizing muscles throughout the day.",
+        "stat": "Continuous",
+        "statLabel": "Core engagement"
+      },
+      {
+        "title": "Superior Pelvic Support",
+        "desc": "Our seat cushion works with the pelvic stabilizer to maintain optimal position. This unique design cradles your pelvis, enhancing sitting posture and minimizing pain.",
+        "stat": "Patented",
+        "statLabel": "Pelvic support system"
+      },
+      {
+        "title": "20% More Calorie Burn",
+        "desc": "Movement burns calories and helps manage weight and mood. Mayo Clinic research confirms CoreChair increases metabolic demand by 20% over traditional chairs.",
+        "stat": "20%",
+        "statLabel": "More calories burned"
+      },
+      {
+        "title": "Improved Circulation",
+        "desc": "Say goodbye to swollen ankles. Movement stimulates circulation throughout your body, helping your heart pump and assisting vascular return.",
+        "stat": "Better",
+        "statLabel": "Blood flow"
+      }
+    ],
+    "sittingDisease": {
+      "title": "Understanding Sitting Disease",
+      "desc": "Extended sitting contributes to obesity, illness, and back pain. CoreChair addresses these issues through continuous, healthy movement that keeps your body engaged.",
+      "points": [
+        "Reduces pressure on spinal discs",
+        "Stimulates lymphatic system",
+        "Maintains joint mobility",
+        "Prevents muscle atrophy"
+      ]
+    },
+    "cta": {
+      "title": "Experience the Benefits",
+      "desc": "Join thousands who have transformed their sitting experience",
+      "button": "Shop CoreChair"
+    }
+  },
+  "design": {
+    "hero": {
+      "title": "Engineered for Movement",
+      "subtitle": "Every curve, every mechanism, every detail designed for your health"
+    },
+    "philosophy": {
+      "label": "Design Philosophy",
+      "title": "Form Follows Function",
+      "desc": "CoreChair was designed from the ground up to solve the problems of traditional office seating. Every element serves a purpose in promoting healthy, active sitting."
+    },
+    "features": [
+      {
+        "title": "Sculpted Seat Pan",
+        "desc": "Aggressively shaped to cradle your pelvis and prevent sliding forward. The unique contour distributes pressure evenly for all-day comfort."
+      },
+      {
+        "title": "14-Degree Movement",
+        "desc": "Our patented mechanism allows movement in all directions—forward, back, and side-to-side—keeping your joints mobile and muscles engaged."
+      },
+      {
+        "title": "Low Back Support",
+        "desc": "Strategic support at the top of your pelvis maintains optimal posture without restricting movement. Positioned near belt level for natural balance."
+      },
+      {
+        "title": "Adjustable Resistance",
+        "desc": "Control how much you move. Start with higher resistance and gradually increase movement as your body adapts to active sitting."
+      }
+    ],
+    "materials": {
+      "label": "Premium Materials",
+      "title": "Built to Last",
+      "desc": "Tested to exceed 1 million cycles—far beyond the industry standard of 300,000. We use only high-quality, durable materials backed by an 8-year warranty.",
+      "items": ["3D knit stretch fabric", "High-precision mechanism", "Commercial-grade hydraulics", "Eco-friendly materials"]
+    },
+    "comparison": {
+      "title": "How We Compare",
+      "traditional": "Traditional chairs force static posture, leading to muscle fatigue, poor circulation, and back pain.",
+      "ball": "Exercise balls lack pelvic support, causing rapid fatigue and postural collapse.",
+      "corechair": "CoreChair provides optimal support while encouraging healthy movement—comfortable for hours."
     }
   },
   "shop": {
-    "title": "Shop CoreChair",
-    "subtitle": "Discover the perfect active sitting solution for your workspace",
-    "sort": "Sorted by price: low to high",
+    "hero": {
+      "title": "Find Your Perfect Chair",
+      "subtitle": "Active sitting solutions for every workspace"
+    },
     "products": {
       "coreperch": {
         "name": "CorePerch",
-        "price": "$395.00",
-        "rating": "5.00",
-        "shortDesc": "Active-sitting stool for high desks",
-        "features": [
-          "Ergonomic active-sitting stool for high counter and adjustable height desks",
-          "Sculpted Seat cushion for optimal comfort and support",
-          "Height adjustable 23.5″ to 28″",
-          "360 degree swivel",
-          "250 pound weight capacity",
-          "Convenient carrying handle",
-          "Secure rubber feet prevents slipping and protects floor",
-          "Active mechanism promotes movement and blood flow",
-          "Pivot angle 5 degrees at the base, safe and stable",
-          "Available in three fun colours: Black, Cherry Red and Dark Blue"
-        ]
+        "tagline": "Active Stool",
+        "price": "$395",
+        "rating": "4.8",
+        "description": "Perfect for standing desks and high workstations. The CorePerch promotes subtle movement while providing stable support.",
+        "features": ["5-degree pivot base", "Height adjustable 23.5-28\"", "360° swivel", "250 lb capacity"],
+        "bestFor": "Standing desks"
       },
       "tango": {
-        "name": "CoreChair Tango",
-        "price": "$595.00",
-        "rating": "4.97",
-        "shortDesc": "Compact ergonomic active-sitting chair",
-        "features": [
-          "Ergonomic Active-Sitting Chair",
-          "Sculpted Seat optimizes Pressure Distribution and prevents sliding",
-          "Back rest works with the cushion shape to embrace your pelvis",
-          "Seat and Back harmonize to stabilize the pelvis to optimize balance",
-          "Patented mechanism encourages healthy movement to build core strength",
-          "Recommended for Preventative Strengthening and good positioning",
-          "Compact and fits snugly under desk",
-          "Three stylish colours to choose from – Red, Black and Blue",
-          "Comfortably seats those 5′ to 6'5″ tall",
-          "Exceeds BIFMA/ANSI durability and safety requirements"
-        ]
+        "name": "Tango",
+        "tagline": "Compact Active Chair",
+        "price": "$595",
+        "rating": "4.9",
+        "description": "Our most compact active sitting chair. Perfect for smaller workspaces without compromising on movement and support.",
+        "features": ["Sculpted seat", "Low back support", "Compact design", "3 color options"],
+        "bestFor": "Small spaces"
       },
       "classic": {
-        "name": "CoreChair Classic",
-        "price": "$995.00",
-        "rating": "4.81",
-        "shortDesc": "Flagship active sitting chair - NEAT Certified",
-        "features": [
-          "Ergonomic Active-Sitting Chair",
-          "Sculpted Seat optimizes Pressure Distribution and prevents sliding",
-          "Back rest works with the cushion shape to embrace your pelvis",
-          "Seat and Back harmonize to stabilize the pelvis to optimize balance",
-          "Patented mechanism encourages healthy movement to build core strength",
-          "Adjustable Resistance to control how much you move",
-          "Recommended for persons with pre-existing back pain",
-          "Durable, 3D knit stretch fabric cover with special traction feature",
-          "Comfortably seats those 5′ to 6'5″ tall",
-          "Exceeds BIFMA/ANSI durability and safety requirements",
-          "NEAT Certified by the Mayo Clinic"
-        ]
+        "name": "Classic",
+        "tagline": "The Original",
+        "price": "$995",
+        "rating": "4.9",
+        "description": "Our flagship chair. The perfect balance of support and movement, recommended for those with pre-existing back pain.",
+        "features": ["14° multidirectional movement", "Adjustable resistance", "NEAT Certified", "8-year warranty"],
+        "bestFor": "Daily office use",
+        "popular": true
       },
       "sport": {
-        "name": "CoreChair Sport",
-        "price": "$1,195.00",
-        "rating": "4.67",
-        "shortDesc": "Leather-look, easy cleaning - NEAT Certified",
-        "features": [
-          "Ergonomic Active-Sitting Chair",
-          "Sculpted Seat optimizes Pressure Distribution and prevents sliding",
-          "Back rest works with the cushion shape to embrace your pelvis",
-          "Patented mechanism encourages healthy movement to build core strength",
-          "Adjustable Resistance to control how much you move",
-          "Recommended for persons with pre-existing back pain",
-          "Durable stretch polyurethane finish for easy cleaning and leather look",
-          "Comfortably seats those 5′ to 6'5″ tall with simple adjustments",
-          "Exceeds BIFMA/ANSI durability and safety requirements",
-          "NEAT Certified by the Mayo Clinic"
-        ]
+        "name": "Sport",
+        "tagline": "Performance Style",
+        "price": "$1,195",
+        "rating": "4.7",
+        "description": "All the benefits of the Classic with a durable polyurethane finish. Easy to clean with a sleek, athletic look.",
+        "features": ["Leather-look finish", "Easy cleaning", "NEAT Certified", "8-year warranty"],
+        "bestFor": "High-use environments"
       },
       "elite": {
-        "name": "CoreChair ELITE",
-        "price": "$1,195.00",
-        "rating": "5.00",
-        "shortDesc": "Tall back with Clever Spine technology",
-        "features": [
-          "Ergonomic Active-Sitting Chair",
-          "Tall Back support with patent-pending Clever Spine",
-          "Easy height adjustment of the upper back for perfect ergonomic fit",
-          "Tapered upper back design provides support without limiting movement",
-          "Discrete elbow rest area integrated into the lower back pad",
-          "Sculpted seat optimizes pressure distribution and prevents sliding",
-          "Patented mechanism allows up to 14 degrees of tilt in all directions",
-          "Adjustable resistance to control how much you move",
-          "Recommended for persons with pre-existing back pain",
-          "Durable, 3D knit stretch fabric cover with special traction feature",
-          "Comfortably seats those 5′ to 6'5″ tall"
-        ]
+        "name": "ELITE",
+        "tagline": "Ultimate Support",
+        "price": "$1,195",
+        "rating": "5.0",
+        "description": "Our most advanced chair. Features patent-pending Clever Spine technology for upper thoracic support that moves with you.",
+        "features": ["Clever Spine technology", "Tall back support", "Upper back height adjustment", "6 color options"],
+        "bestFor": "Maximum support",
+        "new": true
       }
     },
-    "addToCart": "Add to Cart",
-    "viewDetails": "View Details",
-    "warranty": "8 Year Warranty",
-    "warrantyShort": "3 Year Warranty",
-    "neatCertified": "NEAT Certified"
-  },
-  "about": {
-    "title": "About CoreChair",
-    "story": {
-      "title": "Our Story",
-      "p1": "CoreChair was established in 2008 with the aim of creating an innovative active sitting office chair. The goal was to foster healthy workplace environments, focusing on the daily needs of the user.",
-      "vision": {
-        "label": "Our Vision",
-        "quote": "To offer the world's healthiest, ergonomic, and therapeutic office chair."
-      }
+    "compare": {
+      "title": "Compare Models",
+      "features": ["Price", "Movement", "Warranty", "Best For"]
     },
-    "journey": {
-      "title": "How Did We Get Here?",
-      "p1": "Using his expertise in kinesiology and sports medicine, and backed by extensive research, Patrick Harrison, CEO & Founder of CoreChair, has transformed sitting into an active experience.",
-      "p2": "Recognizing the health detriments of traditional office seating and the inadequacies of exercise balls and standing desks, Harrison created CoreChair to address these issues head-on. The chair is scientifically designed to foster optimal posture and facilitate active sitting, featuring a unique 14-degree range of motion in every direction.",
-      "p3": "This innovation not only alleviates back pain and mitigates the risks associated with sedentary lifestyles but also promotes joint mobility, boosts circulation, and increases calorie expenditure."
-    },
-    "pelvicSupport": {
-      "title": "CoreChair Introduces an Innovative Pelvic Support System",
-      "desc": "CoreChair is crafted to support the back part of your hips, promoting a straighter posture that prevents slumping and helps maintain an upright and balanced spine. Its sculpted seat is designed to cradle your pelvis, enhancing your sitting posture and minimizing back pain."
-    },
-    "ambassadors": {
-      "title": "Our Supporters",
-      "subtitle": "Ambassadors",
-      "desc": "CoreChair ambassadors are healthcare professionals that see the benefits that CoreChair can offer. These individuals have shown a passion for the active sitting movement and have partnered with us to help spread the word!",
-      "people": {
-        "lisa": {
-          "name": "Lisa Borden",
-          "title": "Wellness Intelligence Therapist"
-        },
-        "malaena": {
-          "name": "Malaena Kelson",
-          "title": "Certified Ergonomics Assessment Specialist"
-        },
-        "caleb": {
-          "name": "Dr. Caleb Burgess",
-          "title": "Physical Therapist"
-        }
-      }
+    "cta": {
+      "title": "Need Help Choosing?",
+      "desc": "Our team can help you find the perfect chair for your needs",
+      "button": "Contact Us"
     }
   },
   "science": {
-    "title": "The Science Behind CoreChair",
-    "subtitle": "CoreChair was developed with a research-based approach to address Sitting Disease and back pain.",
-    "intro": "We continue to partner with esteemed institutions to undertake significant research validating the health benefits, safety, and durability of the CoreChair.",
-    "studies": {
-      "cornell": {
-        "title": "CoreChair exerts less pressure points than a standard ergonomic task chair",
-        "desc": "Graduate students from Cornell University investigated sitting pressure on CoreChair compared to high end ergonomic office chairs."
+    "hero": {
+      "title": "Research & Validation",
+      "subtitle": "Proven results from leading institutions"
+    },
+    "intro": {
+      "label": "Scientific Foundation",
+      "title": "Developed with Research",
+      "desc": "CoreChair was developed with a research-based approach to address sitting disease and back pain. We partner with esteemed institutions to validate our claims."
+    },
+    "studies": [
+      {
+        "institution": "Cornell University",
+        "title": "Pressure Distribution Study",
+        "finding": "CoreChair exerts fewer pressure points than standard ergonomic task chairs",
+        "detail": "Graduate students investigated sitting pressure on CoreChair compared to high-end ergonomic office chairs."
       },
-      "callaghan": {
-        "title": "The CoreChair is more efficient at introducing desired movement and an exercise opportunity",
-        "desc": "Dr. Callaghan's research compared the posture of individuals sitting in the CoreChair versus a high end ergonomic office chair, as well as a comparison between CoreChair and a properly fitted exercise ball in the recruitment of core stabilizing muscles."
+      {
+        "institution": "University of Waterloo",
+        "title": "Core Muscle Activation",
+        "finding": "CoreChair engages core muscles on par with exercise balls",
+        "detail": "Dr. Callaghan's research compared posture and muscle recruitment between CoreChair, ergonomic chairs, and exercise balls."
       },
-      "neat": {
-        "title": "CoreChair is NEAT™ Certified",
-        "desc": "The Mayo Clinic's NEAT™ (Non Exercise Activity Thermogenesis) certification program looks at solutions that will increase energy expenditure at low intensity, for longer durations."
+      {
+        "institution": "Mayo Clinic",
+        "title": "NEAT Certification",
+        "finding": "CoreChair increases caloric burn by 20%",
+        "detail": "The NEAT (Non-Exercise Activity Thermogenesis) program recognizes solutions that increase energy expenditure at low intensity."
       },
-      "mayo": {
-        "title": "The incidental movement from a CoreChair had a 20% increase in the calories you burn",
-        "desc": "Mayo Clinic, in collaboration with Arizona State University, set out to discover practical solutions to counteract obesity. Dr. James Levine and his team measured caloric burn, comparing outcomes of an ergonomic office chair vs traditional office task chair."
-      },
-      "memorial": {
-        "title": "Less back pain, better sitting posture, enhanced blood flow!",
-        "desc": "Memorial University found that participants sitting in the CoreChair adopted a more upright posture, lower perceived levels of back stiffness, lower perceived levels of physical tiredness."
-      },
-      "cognitive": {
-        "title": "Improved lower extremity blood flow and enhanced cognitive function",
-        "desc": "This four hour duration investigation discovered there was a significant reduction in calf circumference indicative of improved lower extremity blood flow and a significant reduction of errors commissioned utilizing SART (Sustained Attention to Response Task) suggesting enhanced cognitive function with blood flow."
+      {
+        "institution": "Memorial University",
+        "title": "Posture & Comfort Study",
+        "finding": "More upright posture with less back stiffness",
+        "detail": "Participants sitting in CoreChair adopted better posture with lower perceived levels of back stiffness and physical tiredness."
       }
+    ],
+    "stats": {
+      "title": "Key Findings",
+      "items": [
+        { "value": "20%", "label": "More calories burned" },
+        { "value": "14°", "label": "Range of motion" },
+        { "value": "1M+", "label": "Cycles tested" },
+        { "value": "8", "label": "Year warranty" }
+      ]
+    }
+  },
+  "reviews": {
+    "hero": {
+      "title": "Customer Stories",
+      "subtitle": "Real experiences from real users"
+    },
+    "stats": {
+      "average": "4.9",
+      "total": "2,000+",
+      "recommend": "97%"
+    },
+    "testimonials": [
+      {
+        "name": "Tatjana",
+        "role": "Remote Worker",
+        "content": "I work from home 2 days a week and invested in this chair for my home office. I love love love it. If I go a week without working from home, I notice the difference immediately!",
+        "rating": 5
+      },
+      {
+        "name": "Barbara B",
+        "role": "Office Manager",
+        "content": "I am more than happy with my CoreChair. I love it when I purchase a product that exceeds my expectations. It immediately corrected my poor, slumping posture.",
+        "rating": 5
+      },
+      {
+        "name": "Laura",
+        "role": "Nail Technician",
+        "content": "I've been doing nails for over 30 years and the last few years have been terrible on my back. I've used the CoreChair 3 days and noticed a difference INSTANTLY!! WOW!",
+        "rating": 5
+      },
+      {
+        "name": "Emily",
+        "role": "Physician",
+        "content": "The Core Chair was recommended by a colleague after back surgery for severe scoliosis. The chair is fantastic—it doesn't trigger my sciatica at all.",
+        "rating": 5
+      }
+    ],
+    "cta": {
+      "title": "Join Thousands of Happy Customers",
+      "button": "Start Your Trial"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about CoreChair"
+    },
+    "categories": ["General", "Assembly", "Health", "Returns"],
+    "items": [
+      {
+        "q": "What is the weight limit?",
+        "a": "CoreChair has a weight limit of 250 lbs for warranty purposes. However, the chair has been tested through 1 million cycles and can withstand weights in excess of 250 lbs, limited by the hydraulic lift."
+      },
+      {
+        "q": "How difficult is assembly?",
+        "a": "Assembly is minimal and takes only 10-15 minutes. The only tool required is a hex key, which is provided and located in the seat pan of your CoreChair."
+      },
+      {
+        "q": "Do I need a tall back?",
+        "a": "CoreChair is designed to embrace your pelvis in an engaged sitting position and is not intended as a lounging chair. When properly seated, the sculpted seat and low back work together to position your pelvis upright, encouraging natural spinal balance without added supports."
+      },
+      {
+        "q": "What about armrests?",
+        "a": "When sitting balanced with optimal posture, armrests aren't needed. Your upper arms should hang loose by your sides as they do when standing. Armrests can encourage leaning and create unnecessary pressure."
+      },
+      {
+        "q": "Is CoreChair good for existing back pain?",
+        "a": "Yes. CoreChair is designed to provide an ideal combination of optimal postural positioning with safe movement. It's an excellent orthopedic intervention and has proven very effective for persons with chronic back pain."
+      },
+      {
+        "q": "How does it compare to an exercise ball?",
+        "a": "Unlike exercise balls that lack pelvic support and cause rapid fatigue, CoreChair embraces your pelvis with a sculpted seat and low back support. You get the core benefits without the exhaustion and postural collapse."
+      },
+      {
+        "q": "What is your return policy?",
+        "a": "We offer a 60-day satisfaction guarantee on Classic, Elite and Sport models, and a 30-day guarantee on Tango and CorePerch. Please keep original packaging for potential returns."
+      },
+      {
+        "q": "Will I get tired from moving all day?",
+        "a": "Actually, movement increases energy! When you don't move, blood flow decreases and you feel more tired. CoreChair's gentle movement stimulates circulation and keeps you energized throughout the day."
+      }
+    ],
+    "contact": {
+      "title": "Still have questions?",
+      "desc": "Our team is here to help",
+      "button": "Contact Support"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "Revolutionizing the way the world sits"
+    },
+    "story": {
+      "founded": "Founded in 2008",
+      "title": "A Mission to Transform Sitting",
+      "p1": "CoreChair was established with the aim of creating an innovative active sitting office chair. The goal was to foster healthy workplace environments, focusing on the daily needs of users who spend hours sitting each day.",
+      "p2": "Using expertise in kinesiology and sports medicine, backed by extensive research, CEO & Founder Patrick Harrison has transformed sitting into an active experience.",
+      "vision": "To offer the world's healthiest, ergonomic, and therapeutic office chair."
+    },
+    "founder": {
+      "title": "Meet the Founder",
+      "name": "Patrick Harrison",
+      "role": "CEO & Founder",
+      "bio": "Recognizing the health detriments of traditional office seating and the inadequacies of exercise balls and standing desks, Harrison created CoreChair to address these issues head-on."
+    },
+    "ambassadors": {
+      "title": "Our Ambassadors",
+      "desc": "Healthcare professionals who see the benefits CoreChair can offer"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Have a question? We'd love to help you get the most out of your CoreChair experience.",
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help you sit better"
+    },
     "form": {
-      "title": "Send us a Message",
       "name": "Your Name",
       "email": "Email Address",
       "subject": "Subject",
-      "message": "Your Message",
+      "message": "How can we help?",
       "submit": "Send Message",
-      "success": "Thank you for your message! We'll get back to you soon."
+      "success": "Thank you! We'll get back to you soon."
     },
     "info": {
-      "title": "Contact Information",
       "email": "info@corechair.com",
-      "hours": "Monday - Friday: 9AM - 5PM EST",
-      "note": "Closed for Canadian Holidays"
+      "hours": "Monday-Friday: 9AM-5PM EST",
+      "note": "Closed Canadian holidays"
     }
   },
   "footer": {
-    "rights": "All rights reserved",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "shipping": "Shipping & Returns"
+    "tagline": "The world's healthiest ergonomic office chair",
+    "links": {
+      "shop": "Shop",
+      "benefits": "Benefits",
+      "design": "Design",
+      "science": "Science",
+      "reviews": "Reviews",
+      "faq": "FAQ",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "shipping": "Shipping & Returns"
+    },
+    "rights": "All rights reserved"
   },
   "language": {
-    "title": "Language",
+    "title": "Select Language",
     "en": "English",
-    "de": "Deutsch",
-    "fr": "Français",
-    "nl": "Nederlands"
+    "de": "German",
+    "fr": "French",
+    "nl": "Dutch"
   }
 }

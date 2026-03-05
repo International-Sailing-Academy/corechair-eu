@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export', // Disabled for dev - only enable for production build
+  // output: 'export', // Disabled for dev
   distDir: 'dist',
   trailingSlash: true,
   images: {

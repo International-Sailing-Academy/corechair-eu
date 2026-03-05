@@ -8,11 +8,11 @@
   "hero": {
     "title": "De gezondste ergonomische bureaustoel ter wereld",
     "subtitle": "Actieve zitoplossingen ontworpen om beweging te bevorderen, de houding te verbeteren en rugpijn te verminderen. NEAT gecertificeerd door Mayo Clinic.",
-    "cta": "CoreChair kopen"
+    "cta": "Shop CoreChair"
   },
   "features": {
     "title": "Waarom CoreChair?",
-    "ergonomic": "Ergonomisch Ontwerp",
+    "ergonomic": "Ergonomisch ontwerp",
     "ergonomicDesc": "Gepatenteerd actief zitmechanisme met tot 14 graden beweging",
     "active": "NEAT Gecertificeerd",
     "activeDesc": "Gecertificeerd door Mayo Clinic voor actief zitten",
@@ -22,23 +22,23 @@
   "products": {
     "title": "Onze Producten",
     "coreperch": "CorePerch",
-    "coreperchDesc": "Actieve zitkruk voor hoge bureaus - €395",
+    "coreperchDesc": "Actieve zitkruk voor sta-bureaus - €395",
     "tango": "CoreChair Tango",
     "tangoDesc": "Compacte ergonomische stoel - €595",
     "classic": "CoreChair Classic",
     "classicDesc": "Vlaggenschip actieve zitstoel - €995",
     "sport": "CoreChair Sport",
-    "sportDesc": "Lederen look, gemakkelijk schoon te maken - €1.195",
+    "sportDesc": "Lederlook, makkelijk schoon te maken - €1.195",
     "elite": "CoreChair ELITE",
-    "eliteDesc": "Hoge rugleuning met Clever Spine - €1.195",
+    "eliteDesc": "Hoge rug met Clever Spine - €1.195",
     "price": "Vanaf",
     "warranty3": "3 jaar garantie",
     "warranty8": "8 jaar garantie"
   },
   "about": {
     "title": "Over CoreChair",
-    "story": "Opgericht in 2008 door Patrick Harrison, combineert CoreChair expertise in kinesiologie en sportgeneeskunde om de manier waarop we zitten te revolutioneren. Onze gepatenteerde technologie bevordert gezonde beweging en juiste houding gedurende uw hele werkdag.",
-    "mission": "Onze missie is om de gezondheidsrisico's van langdurig zitten te elimineren terwijl comfort en productiviteit behouden blijven. Aanbevolen voor personen met bestaande rugklachten en voor preventieve versterking."
+    "story": "Opgericht in 2008 door Patrick Harrison, combineert CoreChair expertise in kinesiologie en sportgeneeskunde om de manier waarop we zitten te revolutioneren. Onze gepatenteerde technologie bevordert gezonde beweging en juiste houding gedurende uw werkdag.",
+    "mission": "Onze missie is om de gezondheidsrisico's van langdurig zitten te elimineren terwijl comfort en productiviteit behouden blijven. Aanbevolen voor personen met bestaande rugpijn en voor preventieve versterking."
   },
   "contact": {
     "title": "Neem contact met ons op",
@@ -50,5 +50,12 @@
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
     "terms": "Gebruiksvoorwaarden"
+  },
+  "language": {
+    "title": "Taal",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "nl": "Nederlands"
   }
 }

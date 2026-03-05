@@ -7,38 +7,38 @@
   },
   "hero": {
     "title": "Der gesündeste ergonomische Bürostuhl der Welt",
-    "subtitle": "Aktive Sitzlösungen, die Bewegung fördern, die Haltung verbessern und Rückenschmerzen reduzieren. NEAT-zertifiziert von der Mayo Clinic.",
-    "cta": "CoreChair kaufen"
+    "subtitle": "Aktive Sitzlösungen für mehr Bewegung, bessere Haltung und weniger Rückenschmerzen. NEAT-zertifiziert vom Mayo Clinic.",
+    "cta": "CoreChair shoppen"
   },
   "features": {
     "title": "Warum CoreChair?",
     "ergonomic": "Ergonomisches Design",
     "ergonomicDesc": "Patentierter aktiver Sitzmechanismus mit bis zu 14 Grad Bewegung",
     "active": "NEAT Zertifiziert",
-    "activeDesc": "Von der Mayo Clinic für aktives Sitzen zertifiziert",
-    "comfort": "8 Jahre Garantie",
-    "comfortDesc": "Übertrifft BIFMA/ANSI Haltbarkeitsstandards mit 8 Jahren Garantie"
+    "activeDesc": "Vom Mayo Clinic für aktives Sitzen zertifiziert",
+    "comfort": "8-Jahre Garantie",
+    "comfortDesc": "Übertrifft BIFMA/ANSI-Haltbarkeitsstandards mit 8-Jahre-Garantie"
   },
   "products": {
     "title": "Unsere Produkte",
     "coreperch": "CorePerch",
-    "coreperchDesc": "Aktiver Sitzhocker für hohe Schreibtische - 395€",
+    "coreperchDesc": "Aktiver Sitzhocker für hohe Tische - €395",
     "tango": "CoreChair Tango",
-    "tangoDesc": "Kompakter ergonomischer Stuhl - 595€",
+    "tangoDesc": "Kompakter ergonomischer Stuhl - €595",
     "classic": "CoreChair Classic",
-    "classicDesc": "Flaggschiff aktiver Sitzstuhl - 995€",
+    "classicDesc": "Flaggschiff aktiver Sitzstuhl - €995",
     "sport": "CoreChair Sport",
-    "sportDesc": "Leder-Look, leicht zu reinigen - 1.195€",
+    "sportDesc": "Leder-Optik, leicht zu reinigen - €1.195",
     "elite": "CoreChair ELITE",
-    "eliteDesc": "Hohe Rückenlehne mit Clever Spine - 1.195€",
+    "eliteDesc": "Hohe Rückenlehne mit Clever Spine - €1.195",
     "price": "Ab",
     "warranty3": "3 Jahre Garantie",
     "warranty8": "8 Jahre Garantie"
   },
   "about": {
     "title": "Über CoreChair",
-    "story": "Gegründet 2008 von Patrick Harrison, vereint CoreChair Expertise in Kinesiologie und Sportmedizin, um die Art und Weise, wie wir sitzen, zu revolutionieren. Unsere patentierte Technologie fördert gesunde Bewegung und korrekte Haltung während Ihres gesamten Arbeitstages.",
-    "mission": "Unsere Mission ist es, die gesundheitlichen Risiken einer langen Sitzzeit zu eliminieren, während Komfort und Produktivität erhalten bleiben. Empfohlen für Personen mit vorbestehenden Rückenschmerzen und zur präventiven Stärkung."
+    "story": "Gegründet 2008 von Patrick Harrison kombiniert CoreChair Fachwissen in Kinesiologie und Sportmedizin, um die Art und Weise, wie wir sitzen, zu revolutionieren. Unsere patentierte Technologie fördert gesunde Bewegung und richtige Haltung während des Arbeitstages.",
+    "mission": "Unsere Mission ist es, die gesundheitlichen Risiken durch langes Sitzen zu eliminieren und gleichzeitig Komfort und Produktivität zu bewahren. Empfohlen für Personen mit bestehenden Rückenschmerzen und zur präventiven Stärkung."
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
@@ -48,7 +48,14 @@
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen"
+  },
+  "language": {
+    "title": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "nl": "Nederlands"
   }
 }

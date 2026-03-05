@@ -7,13 +7,13 @@
   },
   "hero": {
     "title": "La chaise de bureau ergonomique la plus saine au monde",
-    "subtitle": "Solutions d'assise active conçues pour promouvoir le mouvement, améliorer la posture et réduire les douleurs dorsales. Certifié NEAT par la Mayo Clinic.",
+    "subtitle": "Solutions d'assise active conçues pour favoriser le mouvement, améliorer la posture et réduire les douleurs dorsales. Certifié NEAT par la Mayo Clinic.",
     "cta": "Acheter CoreChair"
   },
   "features": {
-    "title": "Pourquoi CoreChair?",
-    "ergonomic": "Design Ergonomique",
-    "ergonomicDesc": "Mécanisme d'assise active breveté jusqu'à 14 degrés de mouvement",
+    "title": "Pourquoi CoreChair ?",
+    "ergonomic": "Design ergonomique",
+    "ergonomicDesc": "Mécanisme d'assise active breveté avec jusqu'à 14 degrés de mouvement",
     "active": "Certifié NEAT",
     "activeDesc": "Certifié par la Mayo Clinic pour les bienfaits de l'assise active",
     "comfort": "Garantie 8 ans",
@@ -22,27 +22,27 @@
   "products": {
     "title": "Nos Produits",
     "coreperch": "CorePerch",
-    "coreperchDesc": "Tabouret assise active pour bureaux hauts - 395€",
+    "coreperchDesc": "Tabouret d'assise active pour bureaux debout - €395",
     "tango": "CoreChair Tango",
-    "tangoDesc": "Chaise ergonomique compacte - 595€",
+    "tangoDesc": "Chaise ergonomique compacte - €595",
     "classic": "CoreChair Classic",
-    "classicDesc": "Chaise assise active phare - 995€",
+    "classicDesc": "Chaise d'assise active phare - €995",
     "sport": "CoreChair Sport",
-    "sportDesc": "Look cuir, facile à nettoyer - 1 195€",
+    "sportDesc": "Look cuir, facile à nettoyer - €1 195",
     "elite": "CoreChair ELITE",
-    "eliteDesc": "Dossier haut avec Clever Spine - 1 195€",
+    "eliteDesc": "Dossier haut avec Clever Spine - €1 195",
     "price": "À partir de",
     "warranty3": "Garantie 3 ans",
     "warranty8": "Garantie 8 ans"
   },
   "about": {
     "title": "À propos de CoreChair",
-    "story": "Fondée en 2008 par Patrick Harrison, CoreChair combine l'expertise en kinésiologie et en médecine sportive pour révolutionner notre façon de nous asseoir. Notre technologie brevetée favorise un mouvement sain et une posture correcte tout au long de votre journée de travail.",
-    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité. Recommandé pour les personnes souffrant de douleurs dorsales préexistantes et pour le renforcement préventif."
+    "story": "Fondée en 2008 par Patrick Harrison, CoreChair combine l'expertise en kinésiologie et médecine du sport pour révolutionner notre façon de nous asseoir. Notre technologie brevetée favorise le mouvement sain et une posture correcte tout au long de votre journée de travail.",
+    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité. Recommandé pour les personnes souffrant de douleurs dorsales existantes et pour le renforcement préventif."
   },
   "contact": {
     "title": "Contactez-nous",
-    "email": "Email",
+    "email": "E-mail",
     "phone": "Téléphone",
     "address": "Adresse"
   },
@@ -50,5 +50,12 @@
     "rights": "Tous droits réservés",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation"
+  },
+  "language": {
+    "title": "Langue",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "nl": "Nederlands"
   }
 }

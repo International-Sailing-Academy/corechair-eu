@@ -9,9 +9,11 @@ export default function Navigation() {
   const locale = useLocale();
 
   const navItems = [
-    { href: '#products', label: t('products') },
-    { href: '#about', label: t('about') },
-    { href: '#contact', label: t('contact') },
+    { href: `/${locale}/`, label: t('home') },
+    { href: `/${locale}/shop/`, label: t('shop') },
+    { href: `/${locale}/about/`, label: t('about') },
+    { href: `/${locale}/science/`, label: t('science') },
+    { href: `/${locale}/contact/`, label: t('contact') },
   ];
 
   return (
@@ -23,24 +25,24 @@ export default function Navigation() {
         
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
               className="hover:text-gray-300 transition-colors"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
 
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
-          <a
-            href="#products"
+          <Link
+            href={`/${locale}/shop/`}
             className="hidden sm:block bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
           >
             {t('buy')}
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

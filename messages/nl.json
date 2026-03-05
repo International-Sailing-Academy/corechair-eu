@@ -1,55 +1,266 @@
 {
   "nav": {
-    "products": "Producten",
+    "home": "Home",
+    "shop": "Winkel",
     "about": "Over ons",
+    "science": "Wetenschap",
     "contact": "Contact",
     "buy": "Nu kopen"
   },
-  "hero": {
-    "title": "De gezondste ergonomische bureaustoel ter wereld",
-    "subtitle": "Actieve zitoplossingen ontworpen om beweging te bevorderen, de houding te verbeteren en rugpijn te verminderen. NEAT gecertificeerd door Mayo Clinic.",
-    "cta": "Shop CoreChair"
+  "home": {
+    "hero": {
+      "title": "De gezondste ergonomische bureaustoel ter wereld",
+      "subtitle": "Actieve zitoplossingen ontworpen om beweging te bevorderen, de houding te verbeteren en rugpijn te verminderen. NEAT gecertificeerd door Mayo Clinic.",
+      "cta": "Shop CoreChair",
+      "learnMore": "Meer informatie"
+    },
+    "intro": {
+      "title": "Actief zitten voor betere gezondheid",
+      "p1": "Gezien de lange tijd die we dagelijks zittend doorbrengen – wat bijdraagt aan obesitas, ziekte en rugpijn – werden oplossingen zoals gymballen en sta-bureaus geïntroduceerd. Maar onderzoek leert ons: het maakt niet uit of we zitten of staan, we moeten BEWEGEN.",
+      "p2": "CoreChair richt zich op de aandoeningen die voortkomen uit 'ziekte door zitten' door het ingebouwde multidirectionele actieve zitmechanisme met 14 graden beweging. De focus ligt op bekkenstabiliteit.",
+      "p3": "Ons innovatieve ontwerp verbetert de gewrichtsmobiliteit in heupen, bekken en wervelkolom, stimuleert de doorbloeding, spieractiviteit en calorieverbranding.",
+      "tagline": "Slimmer zitten, meer bewegen!"
+    },
+    "eliteBanner": {
+      "title": "ONTDEK DE NIEUWE CORECHAIR ELITE",
+      "description": "We hebben de beste eigenschappen van de CoreChair Classic behouden en een flexibele bovenrugsteun toegevoegd. Geniet van de voordelen van houding, beweging en comfort.",
+      "availability": "6 kleuren nu beschikbaar voor pre-order",
+      "cta": "MEER INFORMATIE"
+    },
+    "advantages": {
+      "title": "Voordelen van actief zitten",
+      "subtitle": "CoreChair is ontwikkeld met een op onderzoek gebaseerde aanpak om ziekte door zitten en rugpijn te bestrijden.",
+      "items": {
+        "backPain": {
+          "title": "Minder rugpijn",
+          "desc": "Bekkenondersteuning biedt de basis voor een gezonde, gebalanceerde wervelkolom, voorkomt doorzakken en optimaliseert de houding."
+        },
+        "brain": {
+          "title": "Meer hersenkracht",
+          "desc": "Verbeterde doorbloeding naar de hersenen houdt u alert en creatief, gelukkiger en productiever."
+        },
+        "core": {
+          "title": "Core kracht",
+          "desc": "Beweging is de sleutel tot het behouden van corekracht. Wat u niet gebruikt, raakt u kwijt."
+        },
+        "pelvic": {
+          "title": "Bekkenondersteuning",
+          "desc": "Ons zitkussen werkt samen met de bekkenondersteuning om het bekken te stabiliseren en rugpijn te verminderen."
+        },
+        "calories": {
+          "title": "Verhoogd calorieverbruik",
+          "desc": "Beweging verbrandt calorieën en helpt bij gewichtsbeheersing. CoreChair kan de stofwisseling met 20% verhogen!"
+        },
+        "circulation": {
+          "title": "Verbeterde circulatie",
+          "desc": "Gezwollen enkels? Beweging stimuleert uw circulatie en ondersteunt de veneuze terugvoer."
+        },
+        "bloodFlow": {
+          "title": "Bloedstroom",
+          "desc": "Beweging stimuleert het lymfatische systeem en de bloedstroom om vitale systemen gezond te houden."
+        },
+        "ergonomic": {
+          "title": "Ergonomische zitstructuur",
+          "desc": "De gevormde zitting harmoniseert met de bekkenstabilisator om drukpunten te verlichten en wegglijden te voorkomen."
+        }
+      }
+    },
+    "trial": {
+      "title": "Risicovrije proefperiode",
+      "desc": "We weten dat ons product anders is – en dat is goed! Probeert u ons ehrlijk uit. Bij ontevredenheid na de proefperiode kunt u contact met ons opnemen. We bieden zelfs een gratis 1-op-1 virtueel consult met onze kinesioloog."
+    }
   },
-  "features": {
-    "title": "Waarom CoreChair?",
-    "ergonomic": "Ergonomisch ontwerp",
-    "ergonomicDesc": "Gepatenteerd actief zitmechanisme met tot 14 graden beweging",
-    "active": "NEAT Gecertificeerd",
-    "activeDesc": "Gecertificeerd door Mayo Clinic voor actief zitten",
-    "comfort": "8 jaar garantie",
-    "comfortDesc": "Overtreft BIFMA/ANSI duurzaamheidsnormen met 8 jaar garantie"
-  },
-  "products": {
-    "title": "Onze Producten",
-    "coreperch": "CorePerch",
-    "coreperchDesc": "Actieve zitkruk voor sta-bureaus - €395",
-    "tango": "CoreChair Tango",
-    "tangoDesc": "Compacte ergonomische stoel - €595",
-    "classic": "CoreChair Classic",
-    "classicDesc": "Vlaggenschip actieve zitstoel - €995",
-    "sport": "CoreChair Sport",
-    "sportDesc": "Lederlook, makkelijk schoon te maken - €1.195",
-    "elite": "CoreChair ELITE",
-    "eliteDesc": "Hoge rug met Clever Spine - €1.195",
-    "price": "Vanaf",
-    "warranty3": "3 jaar garantie",
-    "warranty8": "8 jaar garantie"
+  "shop": {
+    "title": "CoreChair Winkel",
+    "subtitle": "Ontdek de perfecte actieve zitoplossing voor uw werkplek",
+    "sort": "Gesorteerd op prijs: laag naar hoog",
+    "products": {
+      "coreperch": {
+        "name": "CorePerch",
+        "price": "€395,00",
+        "rating": "5,00",
+        "shortDesc": "Actieve zitkruk voor hoge bureaus",
+        "features": [
+          "Ergonomische actieve zitkruk voor sta-bureaus",
+          "Gevormd zitkussen voor optimaal comfort",
+          "Hoogte verstelbaar 60-71 cm",
+          "360-graden draaiing",
+          "Draagvermogen 113 kg",
+          "Draaggreep",
+          "Veilige rubberen voeten voorkomen wegglijden",
+          "Actief mechanisme bevordert beweging",
+          "Verkrijgbaar in: Zwart, Rood en Donkerblauw"
+        ]
+      },
+      "tango": {
+        "name": "CoreChair Tango",
+        "price": "€595,00",
+        "rating": "4,97",
+        "shortDesc": "Compacte ergonomische actieve zitstoel",
+        "features": [
+          "Ergonomische actieve zitstoel",
+          "Gevormde zitting optimaliseert drukverdeling",
+          "Rugleuning omhelst het bekken",
+          "Gepatenteerd mechanisme bevordert gezonde beweging",
+          "Aanbevolen voor preventieve versterking",
+          "Compact en ruimtebesparend",
+          "Verkrijgbaar in Rood, Zwart en Blauw",
+          "Voor personen 1,52-1,96m",
+          "Overtreft BIFMA/ANSI normen"
+        ]
+      },
+      "classic": {
+        "name": "CoreChair Classic",
+        "price": "€995,00",
+        "rating": "4,81",
+        "shortDesc": "Vlaggenschip actieve zitstoel - NEAT gecertificeerd",
+        "features": [
+          "Ergonomische actieve zitstoel",
+          "Gevormde zitting optimaliseert drukverdeling",
+          "Gepatenteerd mechanisme met tot 14° helling",
+          "Verstelbare weerstand",
+          "Aanbevolen bij bestaande rugklachten",
+          "Duurzame 3D-gebreide hoes",
+          "Voor personen 1,52-1,96m",
+          "8 jaar garantie",
+          "NEAT gecertificeerd door Mayo Clinic"
+        ]
+      },
+      "sport": {
+        "name": "CoreChair Sport",
+        "price": "€1.195,00",
+        "rating": "4,67",
+        "shortDesc": "Lederlook, makkelijk schoon te maken - NEAT gecertificeerd",
+        "features": [
+          "Ergonomische actieve zitstoel",
+          "Polyurethaan afwerking in lederlook",
+          "Makkelijk schoon te maken",
+          "Verstelbare weerstand",
+          "Aanbevolen bij bestaande rugklachten",
+          "Voor personen 1,52-1,96m",
+          "Overtreft BIFMA/ANSI normen",
+          "NEAT gecertificeerd door Mayo Clinic"
+        ]
+      },
+      "elite": {
+        "name": "CoreChair ELITE",
+        "price": "€1.195,00",
+        "rating": "5,00",
+        "shortDesc": "Hoge rug met Clever Spine technologie",
+        "features": [
+          "Hoge rug met Clever Spine",
+          "Verstelbare rugleuninghoogte",
+          "Geïntegreerde elleboogsteunen",
+          "14° helling in alle richtingen",
+          "Verstelbare weerstand",
+          "Aanbevolen bij rugklachten",
+          "Duurzame 3D-gebreide hoes",
+          "Voor personen 1,52-1,96m",
+          "8 jaar garantie"
+        ]
+      }
+    },
+    "addToCart": "In winkelwagen",
+    "viewDetails": "Bekijk details",
+    "warranty": "8 jaar garantie",
+    "warrantyShort": "3 jaar garantie",
+    "neatCertified": "NEAT Gecertificeerd"
   },
   "about": {
     "title": "Over CoreChair",
-    "story": "Opgericht in 2008 door Patrick Harrison, combineert CoreChair expertise in kinesiologie en sportgeneeskunde om de manier waarop we zitten te revolutioneren. Onze gepatenteerde technologie bevordert gezonde beweging en juiste houding gedurende uw werkdag.",
-    "mission": "Onze missie is om de gezondheidsrisico's van langdurig zitten te elimineren terwijl comfort en productiviteit behouden blijven. Aanbevolen voor personen met bestaande rugpijn en voor preventieve versterking."
+    "story": {
+      "title": "Ons verhaal",
+      "p1": "CoreChair is opgericht in 2008 met als doel een innovatieve actieve zit-bureaustoel te creëren. Het doel was om gezonde werkomgevingen te bevorderen.",
+      "vision": {
+        "label": "Onze visie",
+        "quote": "De gezondste, meest ergonomische en therapeutische bureaustoel ter wereld aanbieden."
+      }
+    },
+    "journey": {
+      "title": "Hoe we hier zijn gekomen",
+      "p1": "Met zijn expertise in kinesiologie en sportgeneeskunde heeft Patrick Harrison, CEO & oprichter van CoreChair, zitten veranderd in een actieve ervaring.",
+      "p2": "Zich bewust van de gezondheidsnadelen van traditionele bureaustoelen, creëerde Harrison CoreChair. De stoel is wetenschappelijk ontworpen voor optimale houding met een uniek bewegingsbereik van 14 graden.",
+      "p3": "Deze innovatie verlicht niet alleen rugpijn, maar bevordert ook gewrichtsmobiliteit, circulatie en verhoogt het calorieverbruik."
+    },
+    "pelvicSupport": {
+      "title": "Innovatief bekkenondersteuningssysteem",
+      "desc": "CoreChair is ontworpen om het achterste deel van de heupen te ondersteunen en een rechtopstaande houding te bevorderen. De gevormde zitting wiegt het bekken en verbetert de zithouding."
+    },
+    "ambassadors": {
+      "title": "Onze supporters",
+      "subtitle": "Ambassadeurs",
+      "desc": "CoreChair-ambassadeurs zijn zorgprofessionals die de voordelen van CoreChair herkennen. Zij zetten zich met passie in voor de beweging van actief zitten.",
+      "people": {
+        "lisa": {
+          "name": "Lisa Borden",
+          "title": "Wellness Intelligence Therapeut"
+        },
+        "malaena": {
+          "name": "Malaena Kelson",
+          "title": "Gecertificeerd Ergonomie Specialist"
+        },
+        "caleb": {
+          "name": "Dr. Caleb Burgess",
+          "title": "Fysiotherapeut"
+        }
+      }
+    }
+  },
+  "science": {
+    "title": "De wetenschap achter CoreChair",
+    "subtitle": "CoreChair is ontwikkeld met een op onderzoek gebaseerde aanpak om ziekte door zitten en rugpijn te bestrijden.",
+    "intro": "We blijven samenwerken met gerenommeerde instellingen om de gezondheidsvoordelen, veiligheid en duurzaamheid van CoreChair te valideren.",
+    "studies": {
+      "cornell": {
+        "title": "CoreChair oefent minder drukpunten uit dan een standaard bureaustoel",
+        "desc": "Afgestudeerden van Cornell University onderzochten de zitdruk vergeleken met hoogwaardige ergonomische bureaustoelen."
+      },
+      "callaghan": {
+        "title": "CoreChair is efficiënter bij het introduceren van gewenste beweging",
+        "desc": "Onderzoek van Dr. Callaghan vergeleek de houding van personen in CoreChair met conventionele ergonomische stoelen en gymballen."
+      },
+      "neat": {
+        "title": "CoreChair is NEAT™ gecertificeerd",
+        "desc": "Het NEAT™-certificeringsprogramma van Mayo Clinic onderzoekt oplossingen die het energieverbruik bij lage intensiteit verhogen."
+      },
+      "mayo": {
+        "title": "Beweging in een CoreChair verhoogt het aantal verbrande calorieën met 20%",
+        "desc": "Mayo Clinic en Arizona State University onderzochten praktische oplossingen tegen obesitas en maten het calorieverbruik."
+      },
+      "memorial": {
+        "title": "Minder rugpijn, betere houding, verbeterde doorbloeding!",
+        "desc": "Memorial University ontdekte dat CoreChair-gebruikers een rechtopstaandere houding aannamen en minder rugstijfheid ervoeren."
+      },
+      "cognitive": {
+        "title": "Verbeterde doorbloeding en cognitieve functie",
+        "desc": "Een vieruur durende studie toonde een significante afname van de kuitomvang en minder fouten in de aandachtstest, wat duidt op verbeterde cognitieve functie."
+      }
+    }
   },
   "contact": {
     "title": "Neem contact met ons op",
-    "email": "E-mail",
-    "phone": "Telefoon",
-    "address": "Adres"
+    "subtitle": "Heeft u een vraag? We helpen u graag het meeste uit uw CoreChair-ervaring te halen.",
+    "form": {
+      "title": "Stuur ons een bericht",
+      "name": "Uw naam",
+      "email": "E-mailadres",
+      "subject": "Onderwerp",
+      "message": "Uw bericht",
+      "submit": "Bericht versturen",
+      "success": "Bedankt voor uw bericht! We nemen binnenkort contact met u op."
+    },
+    "info": {
+      "title": "Contactgegevens",
+      "email": "info@corechair.eu",
+      "hours": "Maandag - Vrijdag: 9:00 - 17:00",
+      "note": "Gesloten op Canadese feestdagen"
+    }
   },
   "footer": {
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
-    "terms": "Gebruiksvoorwaarden"
+    "terms": "Gebruiksvoorwaarden",
+    "shipping": "Verzending & Retouren"
   },
   "language": {
     "title": "Taal",

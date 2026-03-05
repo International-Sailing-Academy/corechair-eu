@@ -1,55 +1,266 @@
 {
   "nav": {
-    "products": "Produits",
+    "home": "Accueil",
+    "shop": "Boutique",
     "about": "À propos",
+    "science": "Science",
     "contact": "Contact",
     "buy": "Acheter"
   },
-  "hero": {
-    "title": "La chaise de bureau ergonomique la plus saine au monde",
-    "subtitle": "Solutions d'assise active conçues pour favoriser le mouvement, améliorer la posture et réduire les douleurs dorsales. Certifié NEAT par la Mayo Clinic.",
-    "cta": "Acheter CoreChair"
+  "home": {
+    "hero": {
+      "title": "La chaise de bureau ergonomique la plus saine au monde",
+      "subtitle": "Solutions d'assise active conçues pour favoriser le mouvement, améliorer la posture et réduire les douleurs dorsales. Certifié NEAT par la Mayo Clinic.",
+      "cta": "Acheter CoreChair",
+      "learnMore": "En savoir plus"
+    },
+    "intro": {
+      "title": "Adopter l'assise active pour une meilleure santé",
+      "p1": "Face au temps prolongé que nous passons assis chaque jour – contribuant à l'obésité, aux maladies et aux maux de dos – des solutions comme les ballons de gym et les bureaux debout ont été adoptées. Mais la recherche nous dit: peu importe que nous soyons assis ou debout, nous devons BOUGER.",
+      "p2": "CoreChair vise les conditions résultant de la 'maladie de la position assise' grâce à son mécanisme d'assise active multidirectionnel intégré de 14 degrés. L'accent est mis sur la stabilité pelvienne.",
+      "p3": "Notre design innovant améliore la mobilité articulaire des hanches, du bassin et de la colonne vertébrale, stimulant le flux sanguin, l'activité musculaire et la combustion des calories.",
+      "tagline": "Asseyez-vous intelligemment, bougez plus!"
+    },
+    "eliteBanner": {
+      "title": "DÉCOUVREZ LA NOUVELLE CORECHAIR ELITE",
+      "description": "Nous avons conservé les meilleures caractéristiques de la CoreChair Classic et ajouté un support thoracique supérieur flexible. Profitez des avantages de posture, de mouvement et de confort.",
+      "availability": "6 couleurs disponibles en précommande",
+      "cta": "EN SAVOIR PLUS"
+    },
+    "advantages": {
+      "title": "Avantages de l'assise active",
+      "subtitle": "CoreChair a été développé avec une approche basée sur la recherche pour combattre la maladie de la position assise et les maux de dos.",
+      "items": {
+        "backPain": {
+          "title": "Maux de dos réduits",
+          "desc": "Le support pelvien fournit la base d'une colonne vertébrale saine équilibrée, prévient l'affaissement et optimise la posture."
+        },
+        "brain": {
+          "title": "Puissance cérébrale",
+          "desc": "Un flux sanguin accru vers le cerveau vous maintient alerte et créatif, vous rendant plus heureux et plus productif."
+        },
+        "core": {
+          "title": "Force du tronc",
+          "desc": "Le mouvement est la clé pour maintenir la force du tronc. Ce que vous n'utilisez pas, vous le perdez."
+        },
+        "pelvic": {
+          "title": "Support pelvien",
+          "desc": "Notre coussin de siège travaille avec le support pelvien pour stabiliser le bassin et réduire les maux de dos."
+        },
+        "calories": {
+          "title": "Brûlure calorique accrue",
+          "desc": "Le mouvement brûle des calories et aide à gérer notre poids. CoreChair peut augmenter la demande métabolique de 20%!"
+        },
+        "circulation": {
+          "title": "Circulation accrue",
+          "desc": "Chevilles gonflées? Le mouvement stimule votre circulation et aide le retour veineux."
+        },
+        "bloodFlow": {
+          "title": "Flux sanguin",
+          "desc": "Le mouvement stimule le système lymphatique et le flux sanguin pour maintenir vos systèmes vitaux en bon état."
+        },
+        "ergonomic": {
+          "title": "Structure de siège ergonomique",
+          "desc": "Le siège sculpté harmonisé avec le stabilisateur pelvien soulage les points de pression et empêche le glissement."
+        }
+      }
+    },
+    "trial": {
+      "title": "Essai sans risque",
+      "desc": "Nous savons que notre produit est différent – et c'est une bonne chose! Essayez-nous honnêtement. Si vous n'êtes pas satisfait après la période d'essai, contactez-nous. Nous offrons même une consultation virtuelle gratuite avec notre kinésiologiste."
+    }
   },
-  "features": {
-    "title": "Pourquoi CoreChair ?",
-    "ergonomic": "Design ergonomique",
-    "ergonomicDesc": "Mécanisme d'assise active breveté avec jusqu'à 14 degrés de mouvement",
-    "active": "Certifié NEAT",
-    "activeDesc": "Certifié par la Mayo Clinic pour les bienfaits de l'assise active",
-    "comfort": "Garantie 8 ans",
-    "comfortDesc": "Dépasse les normes de durabilité BIFMA/ANSI avec garantie 8 ans"
-  },
-  "products": {
-    "title": "Nos Produits",
-    "coreperch": "CorePerch",
-    "coreperchDesc": "Tabouret d'assise active pour bureaux debout - €395",
-    "tango": "CoreChair Tango",
-    "tangoDesc": "Chaise ergonomique compacte - €595",
-    "classic": "CoreChair Classic",
-    "classicDesc": "Chaise d'assise active phare - €995",
-    "sport": "CoreChair Sport",
-    "sportDesc": "Look cuir, facile à nettoyer - €1 195",
-    "elite": "CoreChair ELITE",
-    "eliteDesc": "Dossier haut avec Clever Spine - €1 195",
-    "price": "À partir de",
-    "warranty3": "Garantie 3 ans",
-    "warranty8": "Garantie 8 ans"
+  "shop": {
+    "title": "Boutique CoreChair",
+    "subtitle": "Découvrez la solution d'assise active parfaite pour votre espace de travail",
+    "sort": "Trié par prix: croissant",
+    "products": {
+      "coreperch": {
+        "name": "CorePerch",
+        "price": "395,00 €",
+        "rating": "5,00",
+        "shortDesc": "Tabouret d'assise active pour bureaux hauts",
+        "features": [
+          "Tabouret d'assise active pour bureaux debout",
+          "Coussin de siège sculpté pour un confort optimal",
+          "Hauteur réglable 60-71 cm",
+          "Pivotement à 360 degrés",
+          "Capacité 113 kg",
+          "Poignée de transport",
+          "Pieds en caoutchouc antidérapants",
+          "Mécanisme actif favorisant le mouvement",
+          "Disponible en: Noir, Rouge et Bleu foncé"
+        ]
+      },
+      "tango": {
+        "name": "CoreChair Tango",
+        "price": "595,00 €",
+        "rating": "4,97",
+        "shortDesc": "Chaise ergonomique compacte à assise active",
+        "features": [
+          "Chaise à assise active ergonomique",
+          "Siège sculpté optimisant la répartition de pression",
+          "Dossier épousant la forme du bassin",
+          "Mécanisme breveté encourageant le mouvement",
+          "Recommandé pour le renforcement préventif",
+          "Compact et gain de place",
+          "Disponible en Rouge, Noir et Bleu",
+          "Pour personnes de 1,52-1,96m",
+          "Dépasse les normes BIFMA/ANSI"
+        ]
+      },
+      "classic": {
+        "name": "CoreChair Classic",
+        "price": "995,00 €",
+        "rating": "4,81",
+        "shortDesc": "Chaise phare à assise active - Certifié NEAT",
+        "features": [
+          "Chaise à assise active ergonomique",
+          "Siège sculpté optimisant la répartition de pression",
+          "Mécanisme breveté avec inclinaison jusqu'à 14°",
+          "Résistance réglable",
+          "Recommandé pour les maux de dos existants",
+          "Housse en tricot 3D durable",
+          "Pour personnes de 1,52-1,96m",
+          "Garantie 8 ans",
+          "Certifié NEAT par la Mayo Clinic"
+        ]
+      },
+      "sport": {
+        "name": "CoreChair Sport",
+        "price": "1 195,00 €",
+        "rating": "4,67",
+        "shortDesc": "Look cuir, facile à nettoyer - Certifié NEAT",
+        "features": [
+          "Chaise à assise active ergonomique",
+          "Finition polyuréthane look cuir",
+          "Nettoyage facile",
+          "Résistance réglable",
+          "Recommandé pour les maux de dos existants",
+          "Pour personnes de 1,52-1,96m",
+          "Dépasse les normes BIFMA/ANSI",
+          "Certifié NEAT par la Mayo Clinic"
+        ]
+      },
+      "elite": {
+        "name": "CoreChair ELITE",
+        "price": "1 195,00 €",
+        "rating": "5,00",
+        "shortDesc": "Dossier haut avec technologie Clever Spine",
+        "features": [
+          "Dossier haut avec Clever Spine",
+          "Hauteur du dossier réglable",
+          "Accoudoirs intégrés discrets",
+          "Inclinaison 14° dans toutes les directions",
+          "Résistance réglable",
+          "Recommandé pour les maux de dos",
+          "Housse en tricot 3D durable",
+          "Pour personnes de 1,52-1,96m",
+          "Garantie 8 ans"
+        ]
+      }
+    },
+    "addToCart": "Ajouter au panier",
+    "viewDetails": "Voir les détails",
+    "warranty": "Garantie 8 ans",
+    "warrantyShort": "Garantie 3 ans",
+    "neatCertified": "Certifié NEAT"
   },
   "about": {
     "title": "À propos de CoreChair",
-    "story": "Fondée en 2008 par Patrick Harrison, CoreChair combine l'expertise en kinésiologie et médecine du sport pour révolutionner notre façon de nous asseoir. Notre technologie brevetée favorise le mouvement sain et une posture correcte tout au long de votre journée de travail.",
-    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité. Recommandé pour les personnes souffrant de douleurs dorsales existantes et pour le renforcement préventif."
+    "story": {
+      "title": "Notre histoire",
+      "p1": "CoreChair a été fondée en 2008 dans le but de créer une chaise de bureau innovante à assise active. L'objectif était de favoriser des environnements de travail sains.",
+      "vision": {
+        "label": "Notre vision",
+        "quote": "Offrir la chaise de bureau la plus saine, ergonomique et thérapeutique au monde."
+      }
+    },
+    "journey": {
+      "title": "Comment nous en sommes arrivés là",
+      "p1": "Grâce à son expertise en cinésiologie et médecine du sport, Patrick Harrison, PDG et fondateur de CoreChair, a transformé le fait de s'asseoir en une expérience active.",
+      "p2": "Conscient des inconvénients sanitaires des chaises de bureau traditionnelles, Harrison a créé CoreChair. La chaise est conçue scientifiquement pour une posture optimale avec une amplitude de mouvement unique de 14 degrés.",
+      "p3": "Cette innovation soulage non seulement les maux de dos, mais favorise également la mobilité articulaire, la circulation et augmente la dépense calorique."
+    },
+    "pelvicSupport": {
+      "title": "Système de support pelvien innovant",
+      "desc": "CoreChair est conçu pour soutenir l'arrière des hanches et favoriser une posture plus droite. Le siège sculpté berce le bassin et améliore la posture assise."
+    },
+    "ambassadors": {
+      "title": "Nos supporters",
+      "subtitle": "Ambassadeurs",
+      "desc": "Les ambassadeurs CoreChair sont des professionnels de santé qui reconnaissent les avantages de CoreChair. Ils s'engagent avec passion pour le mouvement de l'assise active.",
+      "people": {
+        "lisa": {
+          "name": "Lisa Borden",
+          "title": "Thérapeute en intelligence bien-être"
+        },
+        "malaena": {
+          "name": "Malaena Kelson",
+          "title": "Spécialiste certifiée en évaluation ergonomique"
+        },
+        "caleb": {
+          "name": "Dr Caleb Burgess",
+          "title": "Physiothérapeute"
+        }
+      }
+    }
+  },
+  "science": {
+    "title": "La science derrière CoreChair",
+    "subtitle": "CoreChair a été développé avec une approche basée sur la recherche pour combattre la maladie de la position assise et les maux de dos.",
+    "intro": "Nous continuons à collaborer avec des institutions renommées pour valider les bienfaits pour la santé, la sécurité et la durabilité de CoreChair.",
+    "studies": {
+      "cornell": {
+        "title": "CoreChair exerce moins de points de pression qu'une chaise de bureau standard",
+        "desc": "Des étudiants diplômés de l'Université Cornell ont étudié la pression d'assise par rapport à des chaises de bureau ergonomiques haut de gamme."
+      },
+      "callaghan": {
+        "title": "CoreChair est plus efficace pour introduire le mouvement souhaité",
+        "desc": "La recherche du Dr Callaghan a comparé la posture des personnes en CoreChair avec des chaises ergonomiques conventionnelles et des ballons de gym."
+      },
+      "neat": {
+        "title": "CoreChair est certifié NEAT™",
+        "desc": "Le programme de certification NEAT™ de la Mayo Clinic examine les solutions qui augmentent la dépense énergétique à faible intensité."
+      },
+      "mayo": {
+        "title": "Le mouvement dans un CoreChair augmente les calories brûlées de 20%",
+        "desc": "La Mayo Clinic et l'Université d'État de l'Arizona ont étudié des solutions pratiques contre l'obésité et mesuré la combustion des calories."
+      },
+      "memorial": {
+        "title": "Moins de maux de dos, meilleure posture, flux sanguin amélioré!",
+        "desc": "L'Université Memorial a découvert que les utilisateurs de CoreChair adoptaient une posture plus droite et ressentaient moins de raideur dorsale."
+      },
+      "cognitive": {
+        "title": "Circulation améliorée et fonction cognitive renforcée",
+        "desc": "Une étude de quatre heures a montré une réduction significative du tour de mollet et moins d'erreurs dans le test d'attention, indiquant une fonction cognitive améliorée."
+      }
+    }
   },
   "contact": {
     "title": "Contactez-nous",
-    "email": "E-mail",
-    "phone": "Téléphone",
-    "address": "Adresse"
+    "subtitle": "Vous avez une question? Nous serions ravis de vous aider à tirer le meilleur de votre expérience CoreChair.",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Votre nom",
+      "email": "Adresse e-mail",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "success": "Merci pour votre message! Nous vous répondrons bientôt."
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "info@corechair.eu",
+      "hours": "Lundi - Vendredi: 9h00 - 17h00",
+      "note": "Fermé les jours fériés canadiens"
+    }
   },
   "footer": {
     "rights": "Tous droits réservés",
     "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation"
+    "terms": "Conditions d'utilisation",
+    "shipping": "Expédition & Retours"
   },
   "language": {
     "title": "Langue",

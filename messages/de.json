@@ -1,55 +1,266 @@
 {
   "nav": {
-    "products": "Produkte",
+    "home": "Startseite",
+    "shop": "Shop",
     "about": "Über uns",
+    "science": "Wissenschaft",
     "contact": "Kontakt",
     "buy": "Jetzt kaufen"
   },
-  "hero": {
-    "title": "Der gesündeste ergonomische Bürostuhl der Welt",
-    "subtitle": "Aktive Sitzlösungen für mehr Bewegung, bessere Haltung und weniger Rückenschmerzen. NEAT-zertifiziert vom Mayo Clinic.",
-    "cta": "CoreChair shoppen"
+  "home": {
+    "hero": {
+      "title": "Der gesündeste ergonomische Bürostuhl der Welt",
+      "subtitle": "Aktive Sitzlösungen für mehr Bewegung, bessere Haltung und weniger Rückenschmerzen. NEAT-zertifiziert vom Mayo Clinic.",
+      "cta": "CoreChair shoppen",
+      "learnMore": "Mehr erfahren"
+    },
+    "intro": {
+      "title": "Aktives Sitzen für bessere Gesundheit",
+      "p1": "Angesichts der langen Zeit, die wir täglich sitzend verbringen – was zu Fettleibigkeit, Krankheiten und Rückenschmerzen führt – wurden Lösungen wie Gymnastikbälle und Stehschreibtische eingeführt. Doch Forschung zeigt: Es ist egal, ob wir sitzen oder stehen, wir müssen uns BEWEGEN.",
+      "p2": "CoreChair zielt auf die durch 'Sitzenkrankheit' verursachten Zustände ab, durch den eingebauten multidirektionalen Aktivsitzmechanismus mit 14 Grad Bewegung. Der Fokus liegt auf Beckenstabilität für Haltungsunterstützung.",
+      "p3": "Unser innovatives Design verbessert die Gelenkmobilität in Hüfte, Becken und Wirbelsäule, fördert die Durchblutung, Muskelaktivität und Kalorienverbrennung.",
+      "tagline": "Intelligenter sitzen, mehr bewegen!"
+    },
+    "eliteBanner": {
+      "title": "DIE NEUE CORECHAIR ELITE",
+      "description": "Wir haben die besten Eigenschaften der CoreChair Classic genommen und eine flexible Brustwirbelstütze hinzugefügt. Genießen Sie weiterhin die Vorteile von Haltung, Bewegung und Komfort.",
+      "availability": "6 Farben jetzt zur Vorbestellung verfügbar",
+      "cta": "MEHR ERFAHREN"
+    },
+    "advantages": {
+      "title": "Vorteile des aktiven Sitzens",
+      "subtitle": "CoreChair wurde mit einem forschungsbasierten Ansatz entwickelt, um Sitzkrankheit und Rückenschmerzen zu bekämpfen.",
+      "items": {
+        "backPain": {
+          "title": "Weniger Rückenschmerzen",
+          "desc": "Beckenstütze bietet die Grundlage für eine gesunde Wirbelsäule, verhindert das Durchhängen und optimiert die Körperhaltung."
+        },
+        "brain": {
+          "title": "Mehr Gehirnleistung",
+          "desc": "Erhöhte Durchblutung des Gehirns hält Sie wachsam und kreativ, macht Sie glücklicher und produktiver."
+        },
+        "core": {
+          "title": "Kernkraft",
+          "desc": "Bewegung ist der Schlüssel zur Erhaltung der Körperkerngürtel-Stärke. Was Sie nicht nutzen, verlieren Sie."
+        },
+        "pelvic": {
+          "title": "Beckenstütze",
+          "desc": "Unsere Sitzkissen arbeiten mit der Beckenstütze zusammen, um das Becken zu stabilisieren und Rückenschmerzen zu reduzieren."
+        },
+        "calories": {
+          "title": "Erhöhter Kalorienverbrauch",
+          "desc": "Bewegung verbrennt Kalorien und hilft beim Gewichtsmanagement. CoreChair kann den Energiebedarf um 20% erhöhen!"
+        },
+        "circulation": {
+          "title": "Verbesserte Durchblutung",
+          "desc": "Geschwollene Knöchel? Bewegung stimuliert die Durchblutung und unterstützt den venösen Rückfluss."
+        },
+        "bloodFlow": {
+          "title": "Blutfluss",
+          "desc": "Bewegung stimuliert das lymphatische System und den Blutfluss, um lebenswichtige Systeme am Laufen zu halten."
+        },
+        "ergonomic": {
+          "title": "Ergonomische Sitzstruktur",
+          "desc": "Geformter Sitz harmonisiert mit der Beckenstabilisierung, um Druckpunkte zu entlasten und Verrutschen zu verhindern."
+        }
+      }
+    },
+    "trial": {
+      "title": "Risikofreie Testphase",
+      "desc": "Wir wissen, dass unser Produkt anders ist – und das ist gut so! Probieren Sie uns ehrlich aus. Bei Unzufriedenheit nach der Testphase melden Sie sich bei uns. Wir bieten sogar eine kostenlose 1-zu-1 virtuelle Beratung mit unserem Kinesiologen an."
+    }
   },
-  "features": {
-    "title": "Warum CoreChair?",
-    "ergonomic": "Ergonomisches Design",
-    "ergonomicDesc": "Patentierter aktiver Sitzmechanismus mit bis zu 14 Grad Bewegung",
-    "active": "NEAT Zertifiziert",
-    "activeDesc": "Vom Mayo Clinic für aktives Sitzen zertifiziert",
-    "comfort": "8-Jahre Garantie",
-    "comfortDesc": "Übertrifft BIFMA/ANSI-Haltbarkeitsstandards mit 8-Jahre-Garantie"
-  },
-  "products": {
-    "title": "Unsere Produkte",
-    "coreperch": "CorePerch",
-    "coreperchDesc": "Aktiver Sitzhocker für hohe Tische - €395",
-    "tango": "CoreChair Tango",
-    "tangoDesc": "Kompakter ergonomischer Stuhl - €595",
-    "classic": "CoreChair Classic",
-    "classicDesc": "Flaggschiff aktiver Sitzstuhl - €995",
-    "sport": "CoreChair Sport",
-    "sportDesc": "Leder-Optik, leicht zu reinigen - €1.195",
-    "elite": "CoreChair ELITE",
-    "eliteDesc": "Hohe Rückenlehne mit Clever Spine - €1.195",
-    "price": "Ab",
-    "warranty3": "3 Jahre Garantie",
-    "warranty8": "8 Jahre Garantie"
+  "shop": {
+    "title": "CoreChair Shop",
+    "subtitle": "Entdecken Sie die perfekte Aktivsitzlösung für Ihren Arbeitsplatz",
+    "sort": "Sortiert nach Preis: niedrig bis hoch",
+    "products": {
+      "coreperch": {
+        "name": "CorePerch",
+        "price": "€395,00",
+        "rating": "5,00",
+        "shortDesc": "Aktiver Sitzhocker für hohe Tische",
+        "features": [
+          "Ergonomischer Aktivsitzhocker für Stehschreibtische",
+          "Geformtes Sitzkissen für optimalen Komfort",
+          "Höhenverstellbar 60-71 cm",
+          "360-Grad-Drehung",
+          "Tragfähigkeit 113 kg",
+          "Tragegriff",
+          "Sichere Gummifüße verhindern Verrutschen",
+          "Aktivmechanismus fördert Bewegung",
+          "Verfügbar in: Schwarz, Rot und Dunkelblau"
+        ]
+      },
+      "tango": {
+        "name": "CoreChair Tango",
+        "price": "€595,00",
+        "rating": "4,97",
+        "shortDesc": "Kompakter ergonomischer Aktivsitzstuhl",
+        "features": [
+          "Ergonomischer Aktivsitzstuhl",
+          "Geformter Sitz optimiert Druckverteilung",
+          "Rückenlehne umarmt das Becken",
+          "Patentierter Mechanismus fördert gesunde Bewegung",
+          "Empfohlen für präventive Stärkung",
+          "Kompakt und platzsparend",
+          "Verfügbar in Rot, Schwarz und Blau",
+          "Für Personen 1,52-1,96m",
+          "Übertrifft BIFMA/ANSI Standards"
+        ]
+      },
+      "classic": {
+        "name": "CoreChair Classic",
+        "price": "€995,00",
+        "rating": "4,81",
+        "shortDesc": "Flaggschiff Aktivsitzstuhl - NEAT zertifiziert",
+        "features": [
+          "Ergonomischer Aktivsitzstuhl",
+          "Geformter Sitz optimiert Druckverteilung",
+          "Patentierter Mechanismus mit bis zu 14° Neigung",
+          "Einstellbarer Widerstand",
+          "Empfohlen bei bestehenden Rückenschmerzen",
+          "Strapazierfähiger 3D-Strickbezug",
+          "Für Personen 1,52-1,96m",
+          "8 Jahre Garantie",
+          "NEAT zertifiziert vom Mayo Clinic"
+        ]
+      },
+      "sport": {
+        "name": "CoreChair Sport",
+        "price": "€1.195,00",
+        "rating": "4,67",
+        "shortDesc": "Leder-Optik, leicht zu reinigen - NEAT zertifiziert",
+        "features": [
+          "Ergonomischer Aktivsitzstuhl",
+          "Polyurethan-Oberfläche in Leder-Optik",
+          "Einfache Reinigung",
+          "Einstellbarer Widerstand",
+          "Empfohlen bei bestehenden Rückenschmerzen",
+          "Für Personen 1,52-1,96m",
+          "Übertrifft BIFMA/ANSI Standards",
+          "NEAT zertifiziert vom Mayo Clinic"
+        ]
+      },
+      "elite": {
+        "name": "CoreChair ELITE",
+        "price": "€1.195,00",
+        "rating": "5,00",
+        "shortDesc": "Hohe Rückenlehne mit Clever Spine Technologie",
+        "features": [
+          "Hohe Rückenlehne mit Clever Spine",
+          "Höhenverstellbare Rückenlehne",
+          "Integrierte Ellbogenauflagen",
+          "14° Neigung in alle Richtungen",
+          "Einstellbarer Widerstand",
+          "Empfohlen bei Rückenschmerzen",
+          "Strapazierfähiger 3D-Strickbezug",
+          "Für Personen 1,52-1,96m",
+          "8 Jahre Garantie"
+        ]
+      }
+    },
+    "addToCart": "In den Warenkorb",
+    "viewDetails": "Details anzeigen",
+    "warranty": "8 Jahre Garantie",
+    "warrantyShort": "3 Jahre Garantie",
+    "neatCertified": "NEAT Zertifiziert"
   },
   "about": {
     "title": "Über CoreChair",
-    "story": "Gegründet 2008 von Patrick Harrison kombiniert CoreChair Fachwissen in Kinesiologie und Sportmedizin, um die Art und Weise, wie wir sitzen, zu revolutionieren. Unsere patentierte Technologie fördert gesunde Bewegung und richtige Haltung während des Arbeitstages.",
-    "mission": "Unsere Mission ist es, die gesundheitlichen Risiken durch langes Sitzen zu eliminieren und gleichzeitig Komfort und Produktivität zu bewahren. Empfohlen für Personen mit bestehenden Rückenschmerzen und zur präventiven Stärkung."
+    "story": {
+      "title": "Unsere Geschichte",
+      "p1": "CoreChair wurde 2008 mit dem Ziel gegründet, einen innovativen Aktivsitz-Bürostuhl zu entwickeln. Das Ziel war es, gesunde Arbeitsumgebungen zu fördern.",
+      "vision": {
+        "label": "Unsere Vision",
+        "quote": "Der gesündeste, ergonomischste und therapeutischste Bürostuhl der Welt anzubieten."
+      }
+    },
+    "journey": {
+      "title": "Wie alles begann",
+      "p1": "Mit seiner Expertise in Kinesiologie und Sportmedizin hat Patrick Harrison, CEO & Gründer von CoreChair, das Sitzen zu einem aktiven Erlebnis transformiert.",
+      "p2": "Die Erkenntnis über die gesundheitlichen Nachteile traditioneller Bürostühle führte zur Entwicklung von CoreChair. Der Stuhl ist wissenschaftlich designed für optimale Haltung mit einem einzigartigen 14-Grad-Bewegungsbereich.",
+      "p3": "Diese Innovation lindert nicht nur Rückenschmerzen, sondern fördert auch Gelenkmobilität, Durchblutung und erhöht den Kalorienverbrauch."
+    },
+    "pelvicSupport": {
+      "title": "Innovatives Beckenstützsystem",
+      "desc": "CoreChair ist so gestaltet, dass er den hinteren Teil der Hüften stützt und eine aufrechtere Körperhaltung fördert. Der geformte Sitz wiegt das Becken und verbessert die Sitzhaltung."
+    },
+    "ambassadors": {
+      "title": "Unsere Unterstützer",
+      "subtitle": "Botschafter",
+      "desc": "CoreChair-Botschafter sind Gesundheitsfachleute, die die Vorteile von CoreChair erkannt haben. Sie setzen sich leidenschaftlich für die Bewegung des aktiven Sitzens ein.",
+      "people": {
+        "lisa": {
+          "name": "Lisa Borden",
+          "title": "Wellness Intelligence Therapeutin"
+        },
+        "malaena": {
+          "name": "Malaena Kelson",
+          "title": "Zertifizierte Ergonomie-Spezialistin"
+        },
+        "caleb": {
+          "name": "Dr. Caleb Burgess",
+          "title": "Physiotherapeut"
+        }
+      }
+    }
+  },
+  "science": {
+    "title": "Die Wissenschaft hinter CoreChair",
+    "subtitle": "CoreChair wurde mit einem forschungsbasierten Ansatz gegen Sitzkrankheit und Rückenschmerzen entwickelt.",
+    "intro": "Wir arbeiten weiterhin mit renommierten Institutionen zusammen, um die gesundheitlichen Vorteile, Sicherheit und Haltbarkeit des CoreChair zu validieren.",
+    "studies": {
+      "cornell": {
+        "title": "CoreChair übt weniger Druckpunkte aus als ein Standard-Bürostuhl",
+        "desc": "Graduierte Studenten der Cornell University untersuchten den Sitzdruck im Vergleich zu hochwertigen ergonomischen Bürostühlen."
+      },
+      "callaghan": {
+        "title": "CoreChair ist effizienter bei der Einführung gewünschter Bewegung",
+        "desc": "Dr. Callaghans Forschung verglich die Haltung von Personen im CoreChair mit herkömmlichen ergonomischen Stühlen und Gymnastikbällen."
+      },
+      "neat": {
+        "title": "CoreChair ist NEAT™ zertifiziert",
+        "desc": "Das NEAT™-Zertifizierungsprogramm des Mayo Clinic prüft Lösungen, die den Energieverbrauch bei niedriger Intensität erhöhen."
+      },
+      "mayo": {
+        "title": "Bewegung im CoreChair erhöht die verbrannten Kalorien um 20%",
+        "desc": "Mayo Clinic und Arizona State University untersuchten praktische Lösungen gegen Fettleibigkeit und maßen den Kalorienverbrauch."
+      },
+      "memorial": {
+        "title": "Weniger Rückenschmerzen, bessere Haltung, verbesserte Durchblutung!",
+        "desc": "Die Memorial University fand heraus, dass CoreChair-Benutzer eine aufrechtere Haltung einnahmen und weniger Rückensteifigkeit verspürten."
+      },
+      "cognitive": {
+        "title": "Verbesserte Durchblutung und kognitive Funktion",
+        "desc": "Eine vierstündige Studie zeigte eine signifikante Reduktion des Wadenumfangs und weniger Fehler im Aufmerksamkeitstest, was auf verbesserte kognitive Funktion hinweist."
+      }
+    }
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "address": "Adresse"
+    "subtitle": "Haben Sie eine Frage? Wir helfen Ihnen gerne, das Beste aus Ihrer CoreChair-Erfahrung herauszuholen.",
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email": "info@corechair.eu",
+      "hours": "Montag - Freitag: 9:00 - 17:00 Uhr",
+      "note": "Geschlossen an kanadischen Feiertagen"
+    }
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten",
     "privacy": "Datenschutz",
-    "terms": "Nutzungsbedingungen"
+    "terms": "Nutzungsbedingungen",
+    "shipping": "Versand & Rückgabe"
   },
   "language": {
     "title": "Sprache",

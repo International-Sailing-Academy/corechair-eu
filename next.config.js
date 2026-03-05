@@ -4,10 +4,6 @@ const nextConfig = {
   distDir: 'dist',
   images: {
     unoptimized: true
-  },
-  i18n: {
-    locales: ['en', 'fr', 'de', 'nl'],
-    defaultLocale: 'en'
   }
 }
 

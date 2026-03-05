@@ -6,31 +6,39 @@
     "buy": "Acheter"
   },
   "hero": {
-    "title": "La chaise d'assise active la plus confortable au monde",
-    "subtitle": "Design ergonomique révolutionnaire qui vous garde en mouvement tout en étant assis",
+    "title": "La chaise de bureau ergonomique la plus saine au monde",
+    "subtitle": "Solutions d'assise active conçues pour promouvoir le mouvement, améliorer la posture et réduire les douleurs dorsales. Certifié NEAT par la Mayo Clinic.",
     "cta": "Acheter CoreChair"
   },
   "features": {
     "title": "Pourquoi CoreChair?",
     "ergonomic": "Design Ergonomique",
-    "ergonomicDesc": "Supporte le mouvement naturel et une posture correcte",
-    "active": "Assise Active",
-    "activeDesc": "Un mouvement doux maintient votre cœur engagé",
-    "comfort": "Confort Toute la Journée",
-    "comfortDesc": "Conçu pour de longues heures à votre bureau"
+    "ergonomicDesc": "Mécanisme d'assise active breveté jusqu'à 14 degrés de mouvement",
+    "active": "Certifié NEAT",
+    "activeDesc": "Certifié par la Mayo Clinic pour les bienfaits de l'assise active",
+    "comfort": "Garantie 8 ans",
+    "comfortDesc": "Dépasse les normes de durabilité BIFMA/ANSI avec garantie 8 ans"
   },
   "products": {
     "title": "Nos Produits",
-    "classic": "CoreChair Classic",
-    "classicDesc": "La chaise d'assise active originale",
+    "coreperch": "CorePerch",
+    "coreperchDesc": "Tabouret assise active pour bureaux hauts - 395€",
     "tango": "CoreChair Tango",
-    "tangoDesc": "Mouvement et flexibilité améliorés",
-    "price": "À partir de"
+    "tangoDesc": "Chaise ergonomique compacte - 595€",
+    "classic": "CoreChair Classic",
+    "classicDesc": "Chaise assise active phare - 995€",
+    "sport": "CoreChair Sport",
+    "sportDesc": "Look cuir, facile à nettoyer - 1 195€",
+    "elite": "CoreChair ELITE",
+    "eliteDesc": "Dossier haut avec Clever Spine - 1 195€",
+    "price": "À partir de",
+    "warranty3": "Garantie 3 ans",
+    "warranty8": "Garantie 8 ans"
   },
   "about": {
     "title": "À propos de CoreChair",
-    "story": "Conçu par un chiropraticien, CoreChair révolutionne notre façon de nous asseoir. Notre technologie brevetée favorise un mouvement sain et une posture correcte tout au long de votre journée de travail.",
-    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité."
+    "story": "Fondée en 2008 par Patrick Harrison, CoreChair combine l'expertise en kinésiologie et en médecine sportive pour révolutionner notre façon de nous asseoir. Notre technologie brevetée favorise un mouvement sain et une posture correcte tout au long de votre journée de travail.",
+    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité. Recommandé pour les personnes souffrant de douleurs dorsales préexistantes et pour le renforcement préventif."
   },
   "contact": {
     "title": "Contactez-nous",

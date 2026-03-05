@@ -6,31 +6,39 @@
     "buy": "Buy Now"
   },
   "hero": {
-    "title": "The World's Most Comfortable Active Sitting Chair",
-    "subtitle": "Revolutionary ergonomic design that keeps you moving while you sit",
+    "title": "The World's Healthiest Ergonomic Office Chair",
+    "subtitle": "Active sitting solutions designed to promote movement, improve posture, and reduce back pain. NEAT Certified by Mayo Clinic.",
     "cta": "Shop CoreChair"
   },
   "features": {
     "title": "Why CoreChair?",
     "ergonomic": "Ergonomic Design",
-    "ergonomicDesc": "Supports natural movement and proper posture",
-    "active": "Active Sitting",
-    "activeDesc": "Gentle movement keeps your core engaged",
-    "comfort": "All-Day Comfort",
-    "comfortDesc": "Designed for long hours at your desk"
+    "ergonomicDesc": "Patented active sitting mechanism with up to 14 degrees of movement",
+    "active": "NEAT Certified",
+    "activeDesc": "Certified by Mayo Clinic for active sitting benefits",
+    "comfort": "8-Year Warranty",
+    "comfortDesc": "Exceeds BIFMA/ANSI durability standards with 8-year warranty"
   },
   "products": {
     "title": "Our Products",
-    "classic": "CoreChair Classic",
-    "classicDesc": "The original active sitting chair",
+    "coreperch": "CorePerch",
+    "coreperchDesc": "Active-sitting stool for high desks - $395",
     "tango": "CoreChair Tango",
-    "tangoDesc": "Enhanced movement and flexibility",
-    "price": "Starting from"
+    "tangoDesc": "Compact ergonomic chair - $595",
+    "classic": "CoreChair Classic",
+    "classicDesc": "Flagship active sitting chair - $995",
+    "sport": "CoreChair Sport",
+    "sportDesc": "Leather-look, easy cleaning - $1,195",
+    "elite": "CoreChair ELITE",
+    "eliteDesc": "Tall back with Clever Spine - $1,195",
+    "price": "Starting from",
+    "warranty3": "3 Year Warranty",
+    "warranty8": "8 Year Warranty"
   },
   "about": {
     "title": "About CoreChair",
-    "story": "Designed by a chiropractor, CoreChair revolutionizes the way we sit. Our patented technology promotes healthy movement and proper posture throughout your workday.",
-    "mission": "Our mission is to eliminate the health risks associated with prolonged sitting while maintaining comfort and productivity."
+    "story": "Founded in 2008 by Patrick Harrison, CoreChair combines expertise in kinesiology and sports medicine to revolutionize the way we sit. Our patented technology promotes healthy movement and proper posture throughout your workday.",
+    "mission": "Our mission is to eliminate the health risks associated with prolonged sitting while maintaining comfort and productivity. Recommended for persons with pre-existing back pain and for preventative strengthening."
   },
   "contact": {
     "title": "Contact Us",

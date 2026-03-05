@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "buy": "Buy Now"
+  },
+  "hero": {
+    "title": "The World's Most Comfortable Active Sitting Chair",
+    "subtitle": "Revolutionary ergonomic design that keeps you moving while you sit",
+    "cta": "Shop CoreChair"
+  },
+  "features": {
+    "title": "Why CoreChair?",
+    "ergonomic": "Ergonomic Design",
+    "ergonomicDesc": "Supports natural movement and proper posture",
+    "active": "Active Sitting",
+    "activeDesc": "Gentle movement keeps your core engaged",
+    "comfort": "All-Day Comfort",
+    "comfortDesc": "Designed for long hours at your desk"
+  },
+  "products": {
+    "title": "Our Products",
+    "classic": "CoreChair Classic",
+    "classicDesc": "The original active sitting chair",
+    "tango": "CoreChair Tango",
+    "tangoDesc": "Enhanced movement and flexibility",
+    "price": "Starting from"
+  },
+  "about": {
+    "title": "About CoreChair",
+    "story": "Designed by a chiropractor, CoreChair revolutionizes the way we sit. Our patented technology promotes healthy movement and proper posture throughout your workday.",
+    "mission": "Our mission is to eliminate the health risks associated with prolonged sitting while maintaining comfort and productivity."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

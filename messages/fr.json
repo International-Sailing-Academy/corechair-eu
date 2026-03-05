@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact",
+    "buy": "Acheter"
+  },
+  "hero": {
+    "title": "La chaise d'assise active la plus confortable au monde",
+    "subtitle": "Design ergonomique révolutionnaire qui vous garde en mouvement tout en étant assis",
+    "cta": "Acheter CoreChair"
+  },
+  "features": {
+    "title": "Pourquoi CoreChair?",
+    "ergonomic": "Design Ergonomique",
+    "ergonomicDesc": "Supporte le mouvement naturel et une posture correcte",
+    "active": "Assise Active",
+    "activeDesc": "Un mouvement doux maintient votre cœur engagé",
+    "comfort": "Confort Toute la Journée",
+    "comfortDesc": "Conçu pour de longues heures à votre bureau"
+  },
+  "products": {
+    "title": "Nos Produits",
+    "classic": "CoreChair Classic",
+    "classicDesc": "La chaise d'assise active originale",
+    "tango": "CoreChair Tango",
+    "tangoDesc": "Mouvement et flexibilité améliorés",
+    "price": "À partir de"
+  },
+  "about": {
+    "title": "À propos de CoreChair",
+    "story": "Conçu par un chiropraticien, CoreChair révolutionne notre façon de nous asseoir. Notre technologie brevetée favorise un mouvement sain et une posture correcte tout au long de votre journée de travail.",
+    "mission": "Notre mission est d'éliminer les risques pour la santé associés à une position assise prolongée tout en maintenant le confort et la productivité."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  }
+}

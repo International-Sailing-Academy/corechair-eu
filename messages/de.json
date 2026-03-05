@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "buy": "Jetzt kaufen"
+  },
+  "hero": {
+    "title": "Der weltweit bequemste Aktiv-Sitzstuhl",
+    "subtitle": "Revolutionäres ergonomisches Design, das Sie beim Sitzen in Bewegung hält",
+    "cta": "CoreChair kaufen"
+  },
+  "features": {
+    "title": "Warum CoreChair?",
+    "ergonomic": "Ergonomisches Design",
+    "ergonomicDesc": "Unterstützt natürliche Bewegung und korrekte Haltung",
+    "active": "Aktives Sitzen",
+    "activeDesc": "Sanfte Bewegung hält Ihren Kern aktiviert",
+    "comfort": "Komfort den ganzen Tag",
+    "comfortDesc": "Entwickelt für lange Stunden am Schreibtisch"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "classic": "CoreChair Classic",
+    "classicDesc": "Der originale Aktiv-Sitzstuhl",
+    "tango": "CoreChair Tango",
+    "tangoDesc": "Verbesserte Bewegung und Flexibilität",
+    "price": "Ab"
+  },
+  "about": {
+    "title": "Über CoreChair",
+    "story": "Entwickelt von einem Chiropraktiker, revolutioniert CoreChair die Art und Weise, wie wir sitzen. Unsere patentierte Technologie fördert gesunde Bewegung und korrekte Haltung während Ihres gesamten Arbeitstages.",
+    "mission": "Unsere Mission ist es, die gesundheitlichen Risiken einer langen Sitzzeit zu eliminieren, während Komfort und Produktivität erhalten bleiben."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}

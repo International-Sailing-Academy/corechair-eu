@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Producten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "buy": "Nu kopen"
+  },
+  "hero": {
+    "title": "De meest comfortabele actieve zitstoel ter wereld",
+    "subtitle": "Revolutionair ergonomisch ontwerp dat je in beweging houdt terwijl je zit",
+    "cta": "CoreChair kopen"
+  },
+  "features": {
+    "title": "Waarom CoreChair?",
+    "ergonomic": "Ergonomisch Ontwerp",
+    "ergonomicDesc": "Ondersteunt natuurlijke beweging en juiste houding",
+    "active": "Actief Zitten",
+    "activeDesc": "Zachte beweging houdt je core actief",
+    "comfort": "Comfort de hele dag",
+    "comfortDesc": "Ontworpen voor lange uren aan je bureau"
+  },
+  "products": {
+    "title": "Onze Producten",
+    "classic": "CoreChair Classic",
+    "classicDesc": "De originele actieve zitstoel",
+    "tango": "CoreChair Tango",
+    "tangoDesc": "Verbeterde beweging en flexibiliteit",
+    "price": "Vanaf"
+  },
+  "about": {
+    "title": "Over CoreChair",
+    "story": "Ontworpen door een chiropractor, revolutioneert CoreChair de manier waarop we zitten. Onze gepatenteerde technologie bevordert gezonde beweging en juiste houding gedurende je hele werkdag.",
+    "mission": "Onze missie is om de gezondheidsrisico's van langdurig zitten te elimineren terwijl comfort en productiviteit behouden blijven."
+  },
+  "contact": {
+    "title": "Neem contact met ons op",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "address": "Adres"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden"
+  }
+}
